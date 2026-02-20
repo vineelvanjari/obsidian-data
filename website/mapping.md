@@ -1,3 +1,2 @@
-/ https://vineelvanjari-portfolio.onrender.com/
-/portfolio https://vineelvanjari-portfolio.onrender.com/
-/blog [[website/blogs/flutter/intro|intro]]
+/blogs/flutter/intro [[website/content/blogs/flutter/intro|intro]]
+/intro [[website/content/intro|intro]]
