@@ -15,7 +15,7 @@ jobs:
 
       - name: Clone Public Repo
         run: |
-          git clone https://x-access-token:${{ secrets.WEBSITE }}@github.com/vineelvanjari/website-content.git public
+          git clone https://github.com/vineelvanjari/website-content.git public
 
       - name: Sync Entire Website Folder
         run: |
@@ -24,9 +24,8 @@ jobs:
       - name: Commit and Push Changes
         run: |
           cd public
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.WEBSITE }}@github.com/vineelvanjari/website-content.git
+          git config user.name "vineelvanjari"
+          git config user.email "your-email@example.com"
           git add .
           git commit -m "Auto-sync full website folder" || echo "No changes"
-          git push origin main
+          git push https://x-access-token:${{ secrets.SYNC_TOKEN }}@github.com/vineelvanjari/website-content.git HEAD:main
