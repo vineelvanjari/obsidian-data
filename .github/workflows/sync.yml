@@ -15,7 +15,7 @@ jobs:
 
       - name: Clone Public Repo
         run: |
-          git clone https://x-access-token:${{ secrets.website }}@github.com/vineelvanjari/website-content.git public
+          git clone https://x-access-token:${{ secrets.WEBSITE }}@github.com/vineelvanjari/website-content.git public
 
       - name: Sync Entire Website Folder
         run: |
