@@ -1,0 +1,31 @@
+name: Sync Website Folder
+
+on:
+  push:
+    paths:
+      - 'website/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Private Repo
+        uses: actions/checkout@v3
+
+      - name: Clone Public Repo
+        run: |
+          git clone https://x-access-token:${{ secrets.website }}@github.com/vineelvanjari/website-content.git public
+
+      - name: Sync Entire Website Folder
+        run: |
+          rsync -av --delete website/ public/
+
+      - name: Commit and Push Changes
+        run: |
+          cd public
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-sync full website folder" || echo "No changes"
+          git push
