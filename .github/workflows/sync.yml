@@ -1,7 +1,9 @@
-name: Sync Website Folder
+name: Sync website folder to website-content
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'website/**'
 
@@ -10,22 +12,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Private Repo
-        uses: actions/checkout@v3
+      - name: Checkout obsidian-data
+        uses: actions/checkout@v4
+        with:
+          path: source
 
-      - name: Clone Public Repo
-        run: |
-          git clone https://github.com/vineelvanjari/website-content.git public
+      - name: Checkout website-content
+        uses: actions/checkout@v4
+        with:
+          repository: vineelvanjari/website-content
+          token: ${{ secrets.SYNC_TOKEN }}
+          path: destination
 
-      - name: Sync Entire Website Folder
+      - name: Copy website folder contents
         run: |
-          rsync -av --delete website/ public/
+          cp -r source/website/. destination/
 
-      - name: Commit and Push Changes
+      - name: Commit and push to website-content
         run: |
-          cd public
-          git config user.name "vineelvanjari"
-          git config user.email "vineelvanjari24@gmail.com"
-          git add .
-          git commit -m "Auto-sync full website folder" || echo "No changes"
-          git push https://x-access-token:${{ secrets.SYNC_TOKEN }}@github.com/vineelvanjari/website-content.git HEAD:main
+          cd destination
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Sync from obsidian-data/website"
+          git push
