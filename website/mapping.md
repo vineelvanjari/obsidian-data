@@ -6,4 +6,3 @@
 /blog/test2 [[website/content/blogs/test234|test234]]
 /blog/test3 [[website/content/blogs/test4|test4]]
 /bogs/arun [[website/content/blogs/arun kumar|arun kumar]]
-వకదఫణజ    wdf
