@@ -25,7 +25,7 @@ Follow these steps to set **any custom battery percentage** (for example, 40%).
 ---
 
 ### 🔹 Step 3: Edit the Active Power Plan
-- Click **Change plan settings** next to the currently selected plan
+- Click **Change plan settings** 
 
 ---
 
