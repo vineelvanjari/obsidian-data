@@ -68,7 +68,7 @@ Apply the same settings under:
 
 ⚠️ **Note:** Windows does not provide a native option for *popup-only* alerts.  
 Turning the notification off removes the popup, but Windows may still show a small toast notification.
-
+ 
 ---
 
 ### 🔹 Step 8: Save the Settings
