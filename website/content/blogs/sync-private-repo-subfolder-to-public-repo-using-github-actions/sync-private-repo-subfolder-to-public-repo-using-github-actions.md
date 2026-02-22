@@ -1,256 +1,150 @@
-# 🚀 Sync Private Repo Subfolder → Public Repo Automatically
+# 🔄 Sync a Private Repo Subfolder to a Public Repo Using GitHub Actions 🚀
 
-> 🔄 Automatically mirror a subfolder from a private repository into a public repository using GitHub Actions — including deletions.
+Building in private while publishing in public is a very common developer workflow 🔐🌍. You might store your personal notes, experiments, drafts, and internal files inside a private repository — but only a specific folder needs to be exposed to the world. Instead of manually copying files every time you make a change, we can design an automated system that mirrors one subfolder from a private repository into a public repository using GitHub Actions ⚙️🤖.
+
+This guide walks you through the complete setup from scratch, explains why each step matters, and ensures that even file deletions are perfectly synced. By the end, your workflow will be fully automatic — you push once, and everything updates on its own ✨.
 
 ---
 
-## 🏗 What We Are Building
+## 🎯 What We Are Building
 
-```plaintext
-🔒 Private Repo: obsidian-data
-└── 📁 website/        ← Only this folder syncs
-    ├── 📄 index.html
-    ├── 🎨 style.css
-    └── 📝 blogs/
+At a high level, we are separating concerns: one repository is your secure workspace, and the other is your public-facing content.
+
+```
+Private Repo (obsidian-data) 🔒
+└── website/ 🌍
+    ├── index.html
+    ├── style.css
+    └── blogs/
         └── post.md
 
-🌍 Public Repo: website-content
-├── 📄 index.html      ← Exact mirror of website/
-├── 🎨 style.css
-└── 📝 blogs/
+Public Repo (website-content) 🌐
+├── index.html
+├── style.css
+└── blogs/
     └── post.md
 ```
 
-🧠 **Goal:**  
-Every push to `website/` automatically updates the public repo — even deleted files.
+Only the `website/` folder from the private repository is mirrored. Everything else — such as personal notes, drafts, or sensitive files — remains completely private and untouched 🔐.
+
+Whenever you push a change inside the `website/` folder, GitHub Actions automatically:
+
+• Detects the change  
+• Copies updated files  
+• Removes deleted files  
+• Commits the changes  
+• Pushes to the public repository
+
+The result is a perfect mirror between `website/` and your public repo — fully automated and reliable ⚡.
 
 ---
 
-# 🧭 Step 1 — Create Private Repository
+# 🛠 Step 1: Create the Private Repository
 
-### 1️⃣ Create Repo
+Start by creating your private repository. This will act as your master workspace. It contains everything — including things that should never be public.
 
-- Go to 👉 [https://github.com](https://github.com/)
-- Click ➕ **New Repository**
-- Name it: `obsidian-data`
-- Visibility: 🔒 **Private**
-- ✅ Add README
-- Click **Create**
+When creating the repository:
+
+• Name it `obsidian-data`  
+• Set visibility to **Private**  
+• Add a README so it isn’t empty
+
+After creation, create a folder named `website/`. This folder is special — it is the only folder that will sync to the public repository. Think of it as your "export zone" 🌍.
+
+Inside this folder, you can structure your website however you like — HTML files, Markdown blogs, CSS, images, anything.
+
 ---
 
-### 2️⃣ Create `website/` Folder
+# 🌍 Step 2: Create the Public Repository
 
-Click **Add file → Create new file**
+Now create a second repository named `website-content`. This one must be **Public**.
 
-Type:
+It will act purely as the mirrored output. You won’t manually edit this repository. It is controlled entirely by automation 🤖.
+
+Important: The public repository must have at least one commit. Adding a README during creation solves this automatically.
+
+---
+
+# 🔑 Step 3: Generate a Personal Access Token (PAT)
+
+GitHub Actions cannot push to another repository unless you explicitly grant permission. This permission is provided using a Personal Access Token (PAT) 🔐.
+
+When generating the token:
+
+• Use a meaningful name like `sync-obsidian-to-website`  
+• Choose expiration wisely  
+• Enable the full `repo` scope
+
+The `repo` scope is critical because it allows read and write access. Without it, the automation will fail with permission errors.
+
+After generating the token, copy it immediately. You will not be able to see it again.
+
+---
+
+# 🔐 Step 4: Store the Token Securely
+
+Never hardcode your token inside the workflow file. That would expose it publicly. Instead, GitHub provides encrypted repository secrets.
+
+Inside your private repository settings:
+
+• Go to Secrets and Variables → Actions  
+• Create a new secret named `SYNC_TOKEN`  
+• Paste your token
+
+This keeps the token encrypted and safe. The workflow can access it, but humans cannot read it 🔒.
+
+---
+
+# ⚙️ Step 5: Create the Automation Workflow
+
+Now we create the automation engine. This is done using a workflow file placed at:
 
 ```
-website/readme.md
-```
-
-GitHub automatically creates the folder.
-
-Add:
-
-```
-# 🌐 My Website
-```
-
-Commit ✅
-
----
-
-# 🌍 Step 2 — Create Public Repository
-
-- Click ➕ **New Repository**
-    
-- Name: `website-content`
-    
-- Visibility: 🌍 **Public**
-    
-- ✅ Add README
-    
-- Create
-    
-
-⚠️ Important: Public repo must NOT be empty.
-
----
-
-# 🔑 Step 3 — Create Personal Access Token (PAT)
-
-We need permission for automation.
-
-### 📌 Steps
-
-1. Click profile → **Settings**
-    
-2. Scroll → **Developer Settings**
-    
-3. Click **Personal Access Tokens (classic)**
-    
-4. Click **Generate new token**
-    
-5. Fill:
-    
-    - Note: `sync-obsidian-to-website`
-        
-    - Expiration: Your choice
-        
-    - ✅ Check `repo`
-        
-6. Click Generate
-    
-
-⚠️ COPY TOKEN IMMEDIATELY  
-It starts with: `ghp_...`
-
----
-
-# 🔐 Step 4 — Add Token as Secret
-
-Go to:
-
-Private repo → **Settings → Secrets and variables → Actions**
-
-Click ➕ **New repository secret**
-
-| Field  | Value            |
-| ------ | ---------------- |
-| Name   | `SYNC_TOKEN`     |
-| Secret | Paste your token |
-
-Save ✅
-
----
-
-# ⚙️ Step 5 — Create GitHub Action Workflow
-
-Create this file in private repo:
-
-```plaintext
 .github/workflows/sync.yml
 ```
 
-Paste:
+This file defines:
 
-```yaml
-name: 🚀 Sync website to public repo
+• When the workflow should run  
+• What environment it should use  
+• What steps it should execute
 
-on:
-  push:
-    paths:
-      - 'website/**'
+The trigger section ensures the workflow runs only when files inside `website/` change. This prevents unnecessary runs when unrelated files are modified.
 
-jobs:
-  sync:
-    runs-on: ubuntu-latest
+The job then:
 
-    steps:
-      - name: 📥 Checkout Repo A
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+1. Checks out the private repository
+    
+2. Clones the public repository into a temporary folder
+    
+3. Uses `rsync` to copy files while removing deleted ones
+    
+4. Commits only if there are actual changes
+    
+5. Pushes the updates
+    
 
-      - name: 📦 Clone Repo B
-        env:
-          TOKEN: ${{ secrets.SYNC_TOKEN }}
-        run: |
-          git config --global credential.helper store
-          echo "https://YOUR_GITHUB_USERNAME:${TOKEN}@github.com" > ~/.git-credentials
-          git clone https://github.com/YOUR_GITHUB_USERNAME/website-content.git repo-b
+The `rsync --delete` flag is extremely important. Without it, deleted files in your private repo would continue to exist in the public repo, causing mismatches.
 
-      - name: 🔄 Sync website folder (with deletes)
-        run: |
-          rsync -av --delete --exclude='.git' website/ repo-b/
+Trailing slashes in the rsync command also matter. They control whether the folder itself is copied or only its contents.
 
-      - name: 🚀 Commit and push
-        run: |
-          cd repo-b
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "Sync from obsidian-data: ${{ github.sha }}"
-          git push
+---
+
+# 🧪 Testing the System
+
+After setup, testing is simple.
+
+First test adding a file. Create something like `website/test.md` and commit it. Open the Actions tab and watch the workflow execute. After it completes successfully, check your public repository — the file should appear.
+
+Next test deletion. Remove `test.md` from the private repository and commit again. Once the workflow finishes, the file should disappear from the public repository as well. This confirms the `--delete` behavior is working correctly.
+
+---
+
+# 🗂 Final Structure Overview
+
+Your private repository will look like this:
+
 ```
-
-⚠️ Replace `YOUR_GITHUB_USERNAME` in both places.
-
-Commit ✅
-
----
-
-# 🧠 How It Works
-
-### 🔔 Trigger
-
-```yaml
-on:
-  push:
-    paths:
-      - 'website/**'
-```
-
-Only runs when files inside `website/` change.
-
----
-
-### 🔄 Sync Logic
-
-```bash
-rsync -av --delete --exclude='.git' website/ repo-b/
-```
-
-✔ Copies everything  
-✔ Deletes removed files  
-✔ Preserves structure  
-✔ Ignores `.git`
-
----
-
-### 🛡 Safe Commit
-
-```bash
-git diff --cached --quiet || git commit
-```
-
-Prevents empty commits.
-
----
-
-# 🧪 Step 6 — Testing
-
-## ✅ Test Add
-
-1. Add `website/test.md`
-    
-2. Commit
-    
-3. Go to **Actions tab**
-    
-4. Wait for green ✅
-    
-5. Check public repo
-    
-
----
-
-## ❌ Test Delete
-
-1. Delete `test.md`
-    
-2. Commit
-    
-3. Watch Action run
-    
-4. File disappears from public repo
-    
-
----
-
-# 📁 Final Structure
-
-```plaintext
 obsidian-data/
 ├── .github/
 │   └── workflows/
@@ -259,66 +153,27 @@ obsidian-data/
 │   ├── index.html
 │   └── blogs/
 │       └── post.md
-└── private-notes/
-    └── secrets.md
+└── other-private-stuff/
+    └── notes.md
 ```
 
-🛡 Only `website/` syncs  
-🔒 Everything else stays private
+Only `website/` syncs. Everything else remains secure and internal.
 
 ---
 
-# 🧯 Troubleshooting
+# 🏁 Final Outcome
 
-### ❌ Workflow not triggering?
+You now have a clean separation between private development and public publishing 🔐🌐.
 
-- Check file is in `website/`
-    
-- Ensure workflow is in `main` branch
-    
+Every time you push changes inside the `website/` folder:
 
----
+• Automation runs  
+• Files update  
+• Deletions sync  
+• Public repo mirrors perfectly
 
-### ❌ 403 Permission error?
+No manual copying. No risk of forgetting files. No inconsistencies.
 
-- Regenerate PAT
-    
-- Ensure `repo` scope checked
-    
-- Re-add `SYNC_TOKEN`
-    
+You focus on building and writing ✍️.
 
----
-
-### ❌ Files syncing incorrectly?
-
-Make sure this line is exact:
-
-```bash
-rsync -av --delete --exclude='.git' website/ repo-b/
-```
-
-Trailing slashes matter.
-
----
-
-# 🏁 Final Result
-
-Every push inside:
-
-```plaintext
-obsidian-data/website/
-```
-
-Automatically mirrors to:
-
-```plaintext
-website-content/
-```
-
-✔ Additions  
-✔ Modifications  
-✔ Deletions  
-✔ Fully automated
-
----
+GitHub handles deployment-style syncing automatically 🤖✨.
