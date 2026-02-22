@@ -26,7 +26,7 @@ jobs:
 
       - name: Copy website folder contents
         run: |
-rsync -av --delete source/website/ destination/
+          rsync -av --delete source/website/ destination/
 
       - name: Commit and push to website-content
         run: |
