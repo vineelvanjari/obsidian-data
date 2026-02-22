@@ -70,7 +70,7 @@ Apply the same settings under:
 Turning the notification off removes the popup, but Windows may still show a small toast notification.
  
 ---
-
+   
 ### 🔹 Step 8:  Save the Settings
 - Click **Apply**
 - Click **OK**    
