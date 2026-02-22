@@ -1,7 +1,7 @@
 # 🦋 Flutter blogs– Introduction
 
 Flutter is a UI toolkit by Google for building cross-platform apps
-
+![](website/content/blogs/flutter/img/intro-20260222142740201.png)
 ## 🧠 Why Flutter?
 
 - Single codebase
