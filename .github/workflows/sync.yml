@@ -1,9 +1,7 @@
-name: Sync website folder to website-content
+name: Sync website to public repo
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'website/**'
 
@@ -12,38 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout private repo (obsidian-data)
-      - name: Checkout obsidian-data
+      - name: Checkout Repo A
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          path: source
 
-      # 2️⃣ Checkout public repo (website-content)
-      - name: Checkout website-content
-        uses: actions/checkout@v4
-        with:
-          repository: vineelvanjari/website-content
-          token: ${{ secrets.SYNC_TOKEN }}
-          ref: main
-          fetch-depth: 0
-          path: destination
-
-      # 3️⃣ Sync website folder (true mirror)
-      - name: Sync website folder
+      - name: Clone Repo B
         run: |
-          rsync -av --delete source/website/ destination/
+          git clone https://x-access-token:${{ secrets.SYNC_TOKEN }}@github.com/YOUR_USERNAME/B.git repo-b
 
-      # 4️⃣ Commit and push if changes exist
-      - name: Commit and push to website-content
+      - name: Sync website folder (with deletes)
         run: |
-          cd destination
+          rsync -av --delete website/ repo-b/
+
+      - name: Commit and push to Repo B
+        run: |
+          cd repo-b
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          if ! git diff --cached --quiet; then
-            git commit -m "Sync from obsidian-data/website"
-            git push origin main
-          else
-            echo "No changes to commit"
-          fi
+          git diff --cached --quiet || git commit -m "Sync from private repo A: ${{ github.sha }}"
+          git push
