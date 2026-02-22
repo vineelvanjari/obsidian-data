@@ -12,27 +12,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout private repo (obsidian-data)
       - name: Checkout obsidian-data
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           path: source
 
+      # 2️⃣ Checkout public repo (website-content)
       - name: Checkout website-content
         uses: actions/checkout@v4
         with:
           repository: vineelvanjari/website-content
           token: ${{ secrets.SYNC_TOKEN }}
+          ref: main
+          fetch-depth: 0
           path: destination
 
-      - name: Copy website folder contents
+      # 3️⃣ Sync website folder (true mirror)
+      - name: Sync website folder
         run: |
           rsync -av --delete source/website/ destination/
 
+      # 4️⃣ Commit and push if changes exist
       - name: Commit and push to website-content
         run: |
           cd destination
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Sync from obsidian-data/website"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync from obsidian-data/website"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
