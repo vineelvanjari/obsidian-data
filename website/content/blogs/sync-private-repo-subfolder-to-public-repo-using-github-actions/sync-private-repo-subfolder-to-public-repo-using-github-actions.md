@@ -198,121 +198,10 @@ This is a safety check — if there are no changes, it skips the commit so the w
 
 ---
 
-## Step 7: Clone the Private Repo to Your Computer
+## Step 7: Work Locally on Your Computer
 
-Until now everything was done on the GitHub website. In real life you work on your files locally on your computer and then push to GitHub — that push is what triggers the sync.
-
-### Install Git (if you don't have it)
-
-- **Windows:** Download from [git-scm.com](https://git-scm.com/) and install
-- **Mac:** Open Terminal and type `git --version` — it will prompt you to install if missing
-- **Linux:** Run `sudo apt install git`
-
-### Clone the repo
-
-1. Go to your **private repo** (`obsidian-data`) on GitHub
-2. Click the green **Code** button
-3. Copy the HTTPS URL — it looks like:
-    
-    ```
-    https://github.com/YOUR_USERNAME/obsidian-data.git
-    ```
-    
-4. Open your Terminal (Mac/Linux) or Git Bash (Windows)
-5. Navigate to the folder where you want to keep the project:
-    
-    ```bash
-    cd Documents
-    ```
-    
-6. Clone the repo:
-    
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/obsidian-data.git
-    ```
-    
-7. Enter the folder:
-    
-    ```bash
-    cd obsidian-data
-    ```
-    
-
-Your private repo is now on your computer. The folder structure looks like:
-
-```
-obsidian-data/
-├── .github/
-│   └── workflows/
-│       └── sync.yml
-├── website/
-│   └── readme.md
-└── README.md
-```
-
----
-
-## Step 8: Make Changes Locally and Push to Trigger the Sync
-
-This is the normal day-to-day workflow. You edit files on your computer, push to GitHub, and the sync to the public repo happens automatically.
-
-### Example — adding a new file
-
-1. Open the `obsidian-data` folder on your computer
-2. Go into the `website/` folder and create a new file, for example `index.html`
-3. Add some content and save it
-4. Go back to your terminal and run these commands one by one:
-
-```bash
-# See what files changed
-git status
-
-# Stage all changes
-git add .
-
-# Commit with a message
-git commit -m "Add index.html"
-
-# Push to GitHub
-git push
-```
-
-5. The moment `git push` completes, go to your private repo on GitHub → **Actions** tab
-6. You will see the workflow **"Sync website to public repo"** is now running
-7. Once it finishes (green ✅), open your **public repo** (`website-content`) — `index.html` will be there
-
-### Example — deleting a file
-
-1. Delete any file inside the `website/` folder on your computer
-2. In terminal:
-
-```bash
-git add .
-git commit -m "Remove old file"
-git push
-```
-
-3. The workflow triggers → the same file gets deleted from the public repo automatically
-
-### Example — editing an existing file
-
-1. Open any file inside `website/` and make changes
-2. Save the file
-3. In terminal:
-
-```bash
-git add .
-git commit -m "Update content"
-git push
-```
-
-4. The workflow triggers → the updated file appears in the public repo
-
-> 💡 **Key rule:** The workflow only triggers when your push contains changes inside the `website/` folder. If you only edit files outside `website/` (like private notes), the public repo is not touched at all.
-
----
-
-## Step 9: Test That It Works
+You can clone the private repo to your computer, make changes to files inside the `website/` folder, and push to GitHub as you normally would. Every time you push, GitHub Actions will automatically sync those changes to the public repo `website-content` — including any files you deleted.
+## Step 8: Test That It Works
 
 ### Test adding a file
 
@@ -388,16 +277,16 @@ Only the `website/` folder gets synced. Everything else in `obsidian-data` stays
 
 ## Summary
 
-|Step|What You Did|
-|---|---|
-|1|Created private repo `obsidian-data` with a `website/` folder|
-|2|Created public repo `website-content`|
-|3|Generated a Personal Access Token with `repo` scope|
-|4|Added the token as a secret called `SYNC_TOKEN` in private repo|
-|5|Created `.github/workflows/sync.yml` with the sync automation|
-|6|Understood what each part of the workflow does|
-|7|Cloned the private repo to your local computer|
-|8|Made changes locally and pushed to trigger the sync|
-|9|Tested adding and deleting files|
+| Step | What You Did                                                    |
+| ---- | --------------------------------------------------------------- |
+| 1    | Created private repo `obsidian-data` with a `website/` folder   |
+| 2    | Created public repo `website-content`                           |
+| 3    | Generated a Personal Access Token with `repo` scope             |
+| 4    | Added the token as a secret called `SYNC_TOKEN` in private repo |
+| 5    | Created `.github/workflows/sync.yml` with the sync automation   |
+| 6    | Understood what each part of the workflow does                  |
+| 7    | Cloned the private repo to your local computer                  |
+| 8    | Made changes locally and pushed to trigger the sync             |
+| 9    | Tested adding and deleting files                                |
 
 From now on, every time you push changes to the `website/` folder in `obsidian-data`, GitHub Actions will automatically mirror those changes — including deletions — to `website-content`.
