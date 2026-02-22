@@ -73,7 +73,6 @@ Turning the notification off removes the popup, but Windows may still show a sma
 
 ### 🔹 Step 8:  Save the Settings
 - Click **Apply**
-- Click **OK**
-   
+- Click **OK**    
 ---
 When the battery percentage drops below **40%**, Windows shows a low battery warning popup and notification, as shown in the image below.
