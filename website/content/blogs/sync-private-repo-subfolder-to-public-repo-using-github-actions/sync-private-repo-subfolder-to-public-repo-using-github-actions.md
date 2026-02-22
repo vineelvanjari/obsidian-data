@@ -139,28 +139,99 @@ This is the automation file ⚙️ that does the actual syncing 🔁.
 3. Type: `.github/workflows/sync.yml` 📁
     
 4. Paste the workflow content
+
+```
+name: Sync website to public repo
+
+on:
+  push:
+    paths:
+      - 'website/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo A
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Clone Repo B
+        env:
+          TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          git config --global credential.helper store
+          echo "https://YOUR_GITHUB_USERNAME:${TOKEN}@github.com" > ~/.git-credentials
+          git clone https://github.com/YOUR_GITHUB_USERNAME/website-content.git repo-b
+
+      - name: Sync website folder (with deletes)
+        run: |
+          rsync -av --delete --exclude='.git' website/ repo-b/
+
+      - name: Commit and push to Repo B
+        run: |
+          cd repo-b
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Sync from obsidian-data: ${{ github.sha }}"
+          git push
+```
+
+1. Replace `YOUR_GITHUB_USERNAME` with your actual username 👤
     
-5. Replace `YOUR_GITHUB_USERNAME` with your actual username 👤
-    
-6. Click **Commit new file** 💾
+2. Click **Commit new file** 💾
     
 
 ---
 
-## 🧠 Step 6: Understanding the Workflow
+## Step 6: Understanding the Workflow (What Each Part Does)
 
-`on: push: paths: 'website/**'`  
-➡️ Runs only when something changes inside `website/` 📂.
+```yaml
+on:
+  push:
+    paths:
+      - 'website/**'
+```
 
-`git clone ...`  
-➡️ Downloads your public repo 📥.
+This means the workflow only runs when a file inside the `website/` folder is changed. It won't trigger for changes outside that folder.
 
-`rsync -av --delete ...`  
-➡️ Syncs files and removes deleted ones 🗑️.
+---
 
-`git diff --cached --quiet || git commit`  
-➡️ Commits only if there are real changes ✅.
+```yaml
+git config --global credential.helper store
+echo "https://YOUR_USERNAME:${TOKEN}@github.com" > ~/.git-credentials
+```
 
+This stores your token in git's credential system so all git operations (clone, push) use your token automatically.
+
+---
+
+```yaml
+git clone https://github.com/YOUR_USERNAME/website-content.git repo-b
+```
+
+Downloads your public repo into a local folder called `repo-b` on the Actions runner machine.
+
+---
+
+```yaml
+rsync -av --delete --exclude='.git' website/ repo-b/
+```
+
+Copies everything from your `website/` folder into `repo-b/`. The `--delete` flag is what makes deletions sync — if you delete a file in `website/`, rsync removes it from `repo-b/` too.
+
+---
+
+```yaml
+git diff --cached --quiet || git commit -m "..."
+```
+
+This is a safety check — if there are no changes, it skips the commit so the workflow doesn't fail unnecessarily.
+
+---
 ---
 
 ## 💻 Step 7: Clone the Private Repo to Your Computer
