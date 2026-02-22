@@ -71,7 +71,7 @@ Turning the notification off removes the popup, but Windows may still show a sma
  
 ---
 
-### 🔹 Step 8: Save the Settings
+### 🔹 Step 8:  Save the Settings
 - Click **Apply**
 - Click **OK**
 
