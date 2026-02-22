@@ -56,12 +56,6 @@ Configure the following:
 #### ✅ Low battery level
 - Set to **40%** (or any value you prefer)
 
-#### 🚨 Critical battery level
-- Keep at **10%** (recommended)
-
-#### 💤 Critical battery action
-- Choose **Sleep** or **Hibernate**
-
 Apply the same settings under:
 - **On battery**
 - (Optional) **Plugged in**
