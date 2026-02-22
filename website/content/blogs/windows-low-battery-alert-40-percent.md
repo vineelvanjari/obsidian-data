@@ -81,3 +81,4 @@ Apply the same settings under:
 - You can set **any custom value** you want
 - Windows supports **only one low battery warning level**
 - For multiple alerts, a custom script is required
+![](website/content/blogs/imgs/website/content/blogs/windows-low-battery-alert-40-percent/IMG-20260222135755788.png)
