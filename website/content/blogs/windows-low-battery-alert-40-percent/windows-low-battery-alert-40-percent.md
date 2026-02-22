@@ -3,7 +3,7 @@
 **Reason :**  
 On laptops with **low or degraded battery capacity**, systems may **shut down suddenly at higher percentages** like 30–40%.  
 Setting an early warning helps avoid unexpected shutdowns.
-
+  
 ---
 
 ## 🛠️ How to Change the Low Battery Notification Percentage
