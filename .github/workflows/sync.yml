@@ -17,7 +17,7 @@ jobs:
 
       - name: Clone Repo B
         run: |
-          git clone https://x-access-token:${{ secrets.SYNC_TOKEN }}@github.com/YOUR_USERNAME/B.git repo-b
+          git clone https://x-access-token:${{ secrets.SYNC_TOKEN }}@github.com/vineelvanjari/website-content.git repo-b
 
       - name: Sync website folder (with deletes)
         run: |
