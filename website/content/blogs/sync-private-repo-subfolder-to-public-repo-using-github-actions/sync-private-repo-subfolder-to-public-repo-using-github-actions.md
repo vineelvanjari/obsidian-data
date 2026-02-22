@@ -232,69 +232,14 @@ git diff --cached --quiet || git commit -m "..."
 This is a safety check — if there are no changes, it skips the commit so the workflow doesn't fail unnecessarily.
 
 ---
----
 
-## 💻 Step 7: Clone the Private Repo to Your Computer
+## Step 7: Work Locally on Your Computer
 
-Install Git 🛠️ (if not already installed).
-
-Clone the repo 📥:
-
-```bash
-cd Documents
-git clone https://github.com/YOUR_USERNAME/obsidian-data.git
-cd obsidian-data
-```
-
-Now your repo is on your computer 🖥️.
+You can clone the private repo to your computer, make changes to files inside the `website/` folder, and push to GitHub as you normally would. Every time you push, GitHub Actions will automatically sync those changes to the public repo `website-content` — including any files you deleted.
 
 ---
 
-## 🔄 Step 8: Make Changes and Push
-
-### ➕ Adding a file
-
-```bash
-git status
-git add .
-git commit -m "Add index.html"
-git push
-```
-
-After `git push` ⬆️:
-
-- Go to **Actions** tab 🤖
-    
-- Wait for green ✅
-    
-- Check public repo 🌐
-    
-
-### 🗑️ Deleting a file
-
-```bash
-git add .
-git commit -m "Remove old file"
-git push
-```
-
-File disappears from public repo automatically 🔁.
-
-### ✏️ Editing a file
-
-```bash
-git add .
-git commit -m "Update content"
-git push
-```
-
-Updated version appears in public repo 🌍.
-
-> 💡 **Key rule:** Only changes inside `website/` trigger the workflow ⚡.
-
----
-
-## 🧪 Step 9: Test That It Works
+## 🧪 Step 8: Test That It Works
 
 Add a file ➕ → Watch Actions run 🤖 → See it in public repo 🌐.
 
