@@ -37,21 +37,29 @@ One repo. Push code → merge to production branch → Render builds and deploys
 6. Click **Share** — Android Studio creates the repo and pushes everything
 
 ---
-
 ### Step 2 — Create `build.sh` in Project Root
 
+In Android Studio left panel → right click project root → **New** → **File** → name it `build.sh`
+
 Paste this content:
+
+bash
 
 ```bash
 #!/bin/bash
 set -e
 
-git clone https://github.com/flutter/flutter.git -b stable --depth 1 ~/flutter
+if [ ! -d "$HOME/flutter" ]; then
+  git clone https://github.com/flutter/flutter.git -b stable --depth 1 ~/flutter
+fi
+
 export PATH="$PATH:~/flutter/bin"
 
 flutter pub get
 flutter build web
 ```
+
+**Why the `if` check:** Render caches files between builds. Without this check, the second deploy would fail with `fatal: destination path already exists` because Flutter was already downloaded in the previous build. The `if` check skips cloning Flutter if it already exists, saving time. Your app code is always freshly pulled from GitHub by Render regardless.
 
 Then commit and push it:
 
