@@ -76,7 +76,7 @@ Turning the notification off removes the popup, but Windows may still show a sma
 - Click **OK**    
 ---
 When the battery percentage drops below **50%**, Windows shows a low battery warning popup and notification, as shown in the image below.
-![](website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222152730474.png
+![](website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222152730474.png)
 
 
 You can reach us via email at vineelvanjari24@gmail.com 📧
