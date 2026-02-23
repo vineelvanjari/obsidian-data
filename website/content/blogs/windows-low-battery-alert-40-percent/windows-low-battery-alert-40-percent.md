@@ -79,3 +79,4 @@ When the battery percentage drops below **50%**, Windows shows a low battery war
 ![](website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222152730474.png
 
 
+You can reach us via email at vineelvanjari24@gmail.com 📧
