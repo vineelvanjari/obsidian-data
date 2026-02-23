@@ -3,7 +3,7 @@
 **Reason :**  
 On laptops with **low or degraded battery capacity**, systems may **shut down suddenly at higher percentages** like 30–40%.  
 Setting an early warning helps avoid unexpected shutdowns.
-[intro](website/content/blogs/flutter/intro.md)
+  
 ---
 
 ## 🛠️ How to Change the Low Battery Notification Percentage
@@ -11,8 +11,6 @@ Setting an early warning helps avoid unexpected shutdowns.
 Follow these steps to set **any custom battery percentage** (for example, 40%).
 
 ---
-![](https://drive.google.com/u/0/drive-viewer/AKGpihb9nLVCJ8p2uhvG_RbSC9aIhyuRU5tgsEfHJBoU7_kDU94yGnndSskH28BQZwsidRKQTRx8Yx_Pr62FeEIeEtlvHoL2e0FJYEY=s1600-rw-v1)
-
 
 ### 🔹 Step 1: Open Control Panel
 ![](website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222141247976.png)
