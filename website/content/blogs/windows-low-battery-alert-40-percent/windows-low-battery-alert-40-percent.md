@@ -11,7 +11,7 @@ Setting an early warning helps avoid unexpected shutdowns.
 Follow these steps to set **any custom battery percentage** (for example, 40%).
 
 ---
-
+https://photos.app.goo.gl/CScxghMKj3ZQWkuC7
 ### 🔹 Step 1: Open Control Panel
 ![](website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222141247976.png)
 - Press **Windows + R**
