@@ -25,3 +25,5 @@ class LabelText  {
     }
 }
 ```
+output : 
+![](work/java/AWT/img/Label%20and%20Text-20260223060221535.png)
