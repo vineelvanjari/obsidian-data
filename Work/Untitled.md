@@ -1,4 +1,7 @@
-	21p-11q=187
-	p?
-	p=9 => (211-187)/11=q
-	12*31=310+62=372-187 172+13 = 185
+linkedin
+twitter
+redit
+medium
+treads
+dev.com
+....
