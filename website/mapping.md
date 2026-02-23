@@ -4,4 +4,4 @@
 /blogs/windows-low-battery-alert-40-percent [windows-low-battery-alert-40-percent](website/content/blogs/windows-low-battery-alert-40-percent/windows-low-battery-alert-40-percent.md)
 /blog/sync-private-repo-subfolder-to-public-repo-using-github-actions [sync-private-repo-subfolder-to-public-repo-using-github-actions](website/content/blogs/sync-private-repo-subfolder-to-public-repo-using-github-actions/sync-private-repo-subfolder-to-public-repo-using-github-actions.md)
 
-/Nitisha [[Nitisha]]
+/Nitisha 
