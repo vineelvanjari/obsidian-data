@@ -59,16 +59,19 @@ Official get-started: [https://developers.facebook.com/docs/threads/get-started/
 
 1. Log in to Reddit on desktop.
 2. Go to [https://www.reddit.com/prefs/apps](https://www.reddit.com/prefs/apps)
-3. Click create an app (or “create another app”).
-4. Choose script (for personal bots) or web app.
-5. Fill:
+3. ![](work/post_automation/img/post-automation-20260224231430507.png)
+4. Click create an app (or “create another app”).
+5. ![](work/post_automation/img/post-automation-20260224231501296.png)
+6. Choose script (for personal bots) or web app.
+7. Fill:
     - Name
     - Description
     - About URL (optional)
     - Redirect URI → for script use http://localhost:8080
-6. Click create app.
-7. The Client ID is the random string under the app name.
-8. Click edit → the Client Secret appears in the green box.
+8. Click create app.
+![](work/post_automation/img/post-automation-20260224231639932.png)
+9. The Client ID is the random string under the app name.
+10. Click edit → the Client Secret appears in the green box.
 
 Keep these two safe — they never expire unless you revoke the app.5. Medium – 100,000 char limit (Medium Integration API)Important restriction (as of 2026): Medium is no longer issuing new integration tokens. All existing tokens continue to work, but new ones cannot be created.If you already have an old token:
 
