@@ -3,4 +3,5 @@
 - [ ] #todo today ➕ 2026-02-25 📅 2026-02-25
 - [ ] #todo next week
 - [ ] TVR pamplet #todo 
+- [ ] #todo 28th 8:30-10:00
 - [ ] 
