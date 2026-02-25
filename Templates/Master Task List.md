@@ -1,1 +1,1 @@
-- [ ] #todo google cloud certification ➕ 2026-02-25 📅 2026-03-23
+- [ ] #todo meditation from 4AM 🔁 every day ➕ 2026-02-25 🛫 2026-02-25

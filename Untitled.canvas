@@ -1,7 +1,9 @@
 {
 	"nodes":[
-		{"id":"8557c4407a8f3a06","x":-100,"y":320,"width":620,"height":360,"color":"4","type":"link","url":"https://www.youtube.com/watch?v=qPgZTiA69y4"},
-		{"id":"56407bcb2c1fa346","x":600,"y":560,"width":250,"height":220,"type":"text","text":"```java\nkjsbzckjfdbk\nvzklfjd\n```"}
+		{"id":"31fc44a4436464aa","x":-120,"y":-40,"width":250,"height":60,"type":"text","text":"Ready\n"},
+		{"id":"2ddfd9a36a52ed01","x":-120,"y":40,"width":250,"height":260,"type":"text","text":"```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\n\n```"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"af9f91fa8ba24d33","fromNode":"31fc44a4436464aa","fromSide":"bottom","toNode":"2ddfd9a36a52ed01","toSide":"top"}
+	]
 }
