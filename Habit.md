@@ -1,6 +1,8 @@
 ```tracker
-searchType: tag
-searchTarget: habit/java
-datasetName: java
+datasets:
+  - searchType: task.done
+    searchTarget: habit/java
+    datasetName: java
 month:
+    startWeekOn: Mon
 ```
