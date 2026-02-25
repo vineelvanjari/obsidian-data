@@ -12,4 +12,4 @@
 - [ ] Obsidian - Flutter #habit/flutter
 - [ ] Spiritual Book #habit/spiritual-book
 - [ ] Obsidian Spiritual Topic #habit/spiritual-topic 
-- [ ] 
+
