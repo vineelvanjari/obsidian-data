@@ -6,3 +6,11 @@ datasets:
 month:
     startWeekOn: Mon
 ```
+```tracker
+calendar
+title: Exercise Streak
+searchType: frontmatter
+searchTarget: exercise
+folder: Daily Notes
+colorByStreak: true
+```
