@@ -1,1 +1,3 @@
-- [ ] #todo meditation from 4AM 🔁 every day ➕ 2026-02-25 🛫 2026-02-25
+- [ ] #todo tomorrow ➕ 2026-02-25 📅 2026-02-26
+- [ ] #todo today ➕ 2026-02-25 📅 2026-02-25
+
