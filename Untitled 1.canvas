@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"dbbcff15b2411c4d","type":"text","text":"","x":-500,"y":-280,"width":440,"height":440},
+		{"id":"29fa07598827320f","type":"text","text":"```tracker\nsearchType: task.done\nsearchTarget: Writing\ndatasetName: Writing\nstartDate: 2026-01-01\nmonth:\nstartWeekOn: 'Mon'\n```  ","x":-480,"y":-220,"width":380,"height":300}
+	],
+	"edges":[]
+}
