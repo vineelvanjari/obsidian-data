@@ -1,5 +1,5 @@
 ___
-![[Daily Notes/2026-02-26]]
+![[Daily Notes/2026-02-27]]
 
 ___
 ## 🔥 Today  
@@ -36,4 +36,6 @@ PERPLEXITY COMPUTER
 Google flow new tools imageFX ,whisk , assets management 
 Cursor cloud agents 
 Cloude code - remote control via mobile 
-Good opal - automatic model select 
+Good opal - automatic model select
+
+
