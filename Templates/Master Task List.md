@@ -14,3 +14,5 @@
 - [ ] TVR pamplet #todo 
 - [ ] #todo 28th 8:30-10:00
 - [ ] #todo #project youtube automation
+- [ ] #todo obsidian widgets in mobile 
+- [ ] 
