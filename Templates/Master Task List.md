@@ -7,8 +7,8 @@
 - [ ] #todo Google generate AI h2skills ➕ 2026-02-26
 - [ ] #todo Google cloud ➕ 2026-02-26 📅 2026-03-24
 - [ ] #todo #project sarvam AI STT on Rajyalakshmi madam voice ➕ 2026-02-26
-- [x] #todo gate #gate ➕ 2026-02-25 📅 2026-03-04 ✅ 2026-02-26
-- [x] #todo tomorrow ➕ 2026-02-25 📅 2026-02-26 ✅ 2026-02-25
+- [ ] #todo gate #gate ➕ 2026-02-25 📅 2026-03-04
+- [ ] #todo tomorrow ➕ 2026-02-25 📅 2026-02-26
 - [ ] #todo today ➕ 2026-02-25 📅 2026-02-25
 - [ ] #todo next week
 - [ ] TVR pamplet #todo 
