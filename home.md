@@ -33,4 +33,4 @@ ___
 SVG AI
 AI ANDROID 
 PERPLEXITY COMPUTER
-Google flow new tools imageFX 
+Google flow new tools imageFX ,whisk , assets management 
