@@ -1,9 +1,32 @@
-payment exam fee before 4th march 
-complete h2skills hackaton details
-code contest 26th February 2026, from 8:30 PM - 10:00 PM.
-- [ ] Revise DBMS 📅 2026-02-27
-- [ ] Build Flutter UI 📅 2026-03-01
+___
+![[Daily Notes/2026-02-26]]
 
-oracel infrstrcture 
-mongo DB 
- 
+___
+## 🔥 Today  
+```tasks  
+not done  
+due today  
+short mode  
+```
+___
+## ⏰ Tomorrow  
+```tasks  
+not done  
+due tomorrow  
+short mode  
+```
+___
+## 📅 Upcoming  
+```tasks  
+not done  
+due after tomorrow  
+short mode  
+```
+___
+## 🎓 GATE Tasks  
+```tasks  
+not done  
+tag includes #gate  
+short mode  
+```
+___

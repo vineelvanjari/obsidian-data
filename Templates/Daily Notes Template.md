@@ -1,4 +1,3 @@
-# 📅 {{date}}
 
 ## 🌱 Daily Habits
 
