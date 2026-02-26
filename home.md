@@ -31,7 +31,7 @@ short mode
 ```
 ___
 SVG AI
-AI ANDROID 
+AI ANDROID -- Gemini app automation, upgraded Circle to Search (multi-object + outfit try-on), and on-device scam protection for calls and messages on Galaxy S26 and Pixel 10.[](https://www.engadget.com/ai/google-announces-new-android-ai-features-coming-to-the-galaxy-s26-and-pixel-10-series-180039674.html?utm_source=futuretools.io&utm_medium=newspage)​
 PERPLEXITY COMPUTER
 Google flow new tools imageFX ,whisk , assets management 
 Cursor cloud agents 
