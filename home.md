@@ -30,3 +30,6 @@ tag includes #gate
 short mode  
 ```
 ___
+SVG AI
+AI ANDROID 
+PERPLEXITY COMPUTER
