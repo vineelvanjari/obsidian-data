@@ -1,3 +1,11 @@
+- [ ] #todo post automation #project ➕ 2026-02-26
+- [ ] #todo YouTube downloader  #project ➕ 2026-02-26
+- [ ] #todo Streak view in obsidian ➕ 2026-02-26
+- [ ] #todo 0 review project ➕ 2026-02-26 📅 2026-02-28
+- [ ] #todo Certifications  -  mangoDB, oracel ➕ 2026-02-26
+- [ ] #todo Amazon nova Hackathon ➕ 2026-02-26
+- [ ] #todo Google generate AI h2skills ➕ 2026-02-26
+- [ ] #todo Google cloud ➕ 2026-02-26 📅 2026-03-24
 - [ ] #todo #project sarvam AI STT on Rajyalakshmi madam voice ➕ 2026-02-26
 - [ ] #todo gate #gate ➕ 2026-02-25 📅 2026-03-04
 - [x] #todo tomorrow ➕ 2026-02-25 📅 2026-02-26 ✅ 2026-02-25
@@ -6,4 +14,3 @@
 - [ ] TVR pamplet #todo 
 - [ ] #todo 28th 8:30-10:00
 - [ ] #todo #project youtube automation
-- [ ] 
