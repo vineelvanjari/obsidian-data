@@ -36,3 +36,4 @@ PERPLEXITY COMPUTER
 Google flow new tools imageFX ,whisk , assets management 
 Cursor cloud agents 
 Cloude code - remote control via mobile 
+Good opal - automatic model select 
