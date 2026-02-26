@@ -1,7 +1,9 @@
+- [ ] #todo #project sarvam AI STT on Rajyalakshmi madam voice ➕ 2026-02-26
 - [ ] #todo gate #gate ➕ 2026-02-25 📅 2026-03-04
 - [x] #todo tomorrow ➕ 2026-02-25 📅 2026-02-26 ✅ 2026-02-25
 - [ ] #todo today ➕ 2026-02-25 📅 2026-02-25
 - [ ] #todo next week
 - [ ] TVR pamplet #todo 
 - [ ] #todo 28th 8:30-10:00
+- [ ] #todo #project youtube automation
 - [ ] 
