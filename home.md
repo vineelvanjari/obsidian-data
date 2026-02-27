@@ -1,6 +1,8 @@
 ___
 ![[Daily Notes/2026-02-27]]
 
+
+
 ___
 ## 🔥 Today  
 ```tasks  
