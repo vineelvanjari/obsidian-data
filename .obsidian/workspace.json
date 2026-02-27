@@ -1,0 +1,370 @@
+{
+  "main": {
+    "id": "3e0c6d780646a2cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e8b2f0964dc62be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11a3c3ad49dfcd5d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -237.5,
+                  "y": 109.00000000000001,
+                  "zoom": -0.4205981524306858
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "b73464f9c51f38b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Master Task List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Task List"
+            }
+          },
+          {
+            "id": "d06b1dc400bc00c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/DSA/z_others/coding platforms list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "coding platforms list"
+            }
+          },
+          {
+            "id": "cd4d5702452c5cc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "website/content/blogs/DSA/vineelvanjari/Largest-Element-in-an-Array-OR-Find-Maximum-in-Array.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Largest-Element-in-an-Array-OR-Find-Maximum-in-Array"
+            }
+          },
+          {
+            "id": "4f1280ccef341778",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "bin/Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "1044202345104432",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "b8f910ebbfd97ac8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bb22f55d209db20",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "260c846b8968e53f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5adfafafe0a03ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d095bee131e93b1b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c89983494e7968df",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1ce9a6f7115c3fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "website/content/blogs/flutter/flutter-render-deployment-guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "flutter-render-deployment-guide"
+            }
+          },
+          {
+            "id": "34e9e316ae786c9f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "368700b3dd24050a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d91a009771ae7c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfb62f5d898ec340",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "laptop test 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for laptop test 1"
+            }
+          },
+          {
+            "id": "cc469d3ffea4d6b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "laptop test 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from laptop test 1"
+            }
+          },
+          {
+            "id": "bf288de75129cbb2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "030fad5ce330c7f5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1e3e90c6a9433be2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "3651ce1ee47ef785",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "07212957d6214c94",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "homepage:Open homepage": false,
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "6acb9a451fb537f0",
+  "lastOpenFiles": [
+    "Spirituality/MY-Notes/FEB 2026/27-02-2026.md",
+    "Spirituality/RAW/FEB 2026/27-02-2026.md",
+    "website/content/blogs/AI-NEWS/AI-NEWS.md",
+    "Spirituality/MY-Notes/FEB 2026",
+    "Spirituality/MY-Notes",
+    "Spirituality/RAW",
+    "home.md",
+    "Spirituality/RAW/FEB 2026",
+    "website/mapping.md",
+    "website/content/blogs/AI-NEWS",
+    "bin/max_element.md",
+    "Excalidraw/Drawing 2026-02-23 23.13.39.excalidraw.md",
+    "Excalidraw/Drawing 2026-02-24 20.51.08.excalidraw.md",
+    "Untitled.canvas",
+    "Habit.md",
+    "Daily Notes.md",
+    "Daily Notes/2026-02-28.md",
+    "Daily Notes/{date}.md",
+    "Daily Notes/2026-02-27.md",
+    "Daily Notes/2026-02-26.md",
+    "bin/Untitled 1.canvas",
+    "work/DSA/SmartInterView/session 1 (26-02-2026).md",
+    "work/DSA/z_others/coding platforms list.md",
+    "work/DSA/z_others/DSA files generator.md",
+    "work/DSA/Untitled.md",
+    "website/content/blogs/DSA/vineelvanjari/Largest-Element-in-an-Array-OR-Find-Maximum-in-Array.md",
+    "Templates/Master Task List.md",
+    "website/content/blogs/DSA/vineelvanjari",
+    "website/content/blogs/DSA/SmartInterView/session 1 (26-02-2026).md",
+    "website/content/blogs/DSA/Untitled.md",
+    "website/content/blogs/DSA/Spoj",
+    "website/content/blogs/DSA/SmartInterView",
+    "website/content/blogs/DSA/LeetCode",
+    "website/content/blogs/DSA/InterViewBit",
+    "Templates/Daily Notes Template.md",
+    "Daily Notes/2026-02-24.md",
+    "bin/2026-02-24.md",
+    "bin/img/2026-02-24-20260226064513737.jpeg",
+    "Daily Notes/2026-02-25.md",
+    "Untitled 1.canvas",
+    "work/post_automation/img/post-automation-20260224231639932.png",
+    "work/post_automation/img/post-automation-20260224231501296.png",
+    "work/post_automation/img/post-automation-20260224231430507.png",
+    "bin/Untitled 1 1.canvas",
+    "website/content/blogs/flutter/img/intro-20260222142740201.png",
+    "website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260223231446947.png",
+    "bin/Untitled.canvas",
+    "work/java/AWT/img/Label and Text-20260223060221535.png",
+    "website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222152619521.png",
+    "website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222152730474.png",
+    "website/content/blogs/windows-low-battery-alert-40-percent/img/windows-low-battery-alert-40-percent-20260222141821849.png"
+  ]
+}

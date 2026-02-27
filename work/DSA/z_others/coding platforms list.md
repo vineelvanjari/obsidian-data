@@ -1,7 +1,0 @@
-leetcode
-hackerrank
-codechef
-codeforces
-ninja
-interviewbit
-spoj
