@@ -58,3 +58,6 @@ https://youtube.com/shorts/ifvaENMBEtY?si=X848pWrBFBY-g8Rv
 
 Google free guiding principles (coding style guide)
 https://youtube.com/shorts/nmsYGncDYi0?si=GPyvsCEKELjKzNOa
+
+Hackerrank AI interviewer
+https://youtube.com/shorts/ZFbaqjUirX4?si=VDOhCxUg8zqbY9jO
