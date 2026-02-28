@@ -41,3 +41,5 @@ Cloude code - remote control via mobile
 Good opal - automatic model select
 
 
+Standard Intelligence Computer Action Model (26:14): Standard Intelligence claims to have created the first fully general computer action model, trained on 11 million hours of video data, enabling it to explore complex websites, perform CAD modeling, and even drive a car at 30 fps.
+https://si.inc/posts/fdm1/
