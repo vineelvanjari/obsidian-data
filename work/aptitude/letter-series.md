@@ -1,20 +1,4 @@
 
-2️⃣1️⃣ Number Series 🔢
-2️⃣2️⃣ Letter Series 🔡
-2️⃣3️⃣ Coding & Decoding 🕵️
-2️⃣4️⃣ Blood Relations 👨‍👩‍👧‍👦
-2️⃣5️⃣ Directions 🧭
-2️⃣6️⃣ Seating Arrangement 🪑
-2️⃣7️⃣ Venn Diagrams 🔵
-2️⃣8️⃣ Syllogisms 🧠
-2️⃣9️⃣ Data Sufficiency ❓
-3️⃣0️⃣ Logical Deduction 🔍
-
-
----
-
-
-
 
 📖 PAGE 2 – LETTER SERIES MASTER FILE 🔡🔥
 
