@@ -50,4 +50,5 @@ https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG0
 
 Ai bullying human's 
 https://youtube.com/shorts/_lLba4aD4os?si=WVXEFym62EI4L0Xn
-
+AI is to help not replace the main function of human
+https://youtube.com/shorts/pVPclEoWsLU?si=u6Yx4g_JQ04iHYYl
