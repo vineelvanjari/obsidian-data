@@ -65,7 +65,7 @@ SECTION 2: WhatsApp Version
 https://si.inc/posts/fdm1/
 
 🔹 Sam Altman stated that although AI training is energy-intensive, it becomes significantly more energy-efficient than humans during inference.
-https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG05VG1wN0lncUdIcDRkd3ZJUnhlYlJuU3FSUXxBQ3Jtc0ttRVM3YUlTbnVxbWhyVHBnR1pCM1c4X2xXb0c1TmpTWllYdDlTZnJvd0JNOXdQeVdKeE81Sy1IRWVTWHdlOUNkZDFYQm9kdUNVcHdrTUFTZHlQUUlueFlBZWZvTXgwU0FVc2NRamhWcEhZYWxVNUdRTQ&q=https%3A%2F%2Fwww.reddit.com%2Fr%2Fsingularity%2Fcomments%2F1rb2pzf%2Fsam_altman_people_talk_about_how_much_energy_it%2F&v=_CIL2g1oMSQ
+https://www.reddit.com/r/singularity/s/QZRrYRFV4t
 
 🔹 Parag Agrawal launched Parallel, an AI startup focused on collaborative AI systems for deep internet search and complex reasoning.
 https://youtube.com/shorts/ifvaENMBEtY
