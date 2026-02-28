@@ -37,3 +37,5 @@ Method:
 Step 1️⃣ Identify common word
 Step 2️⃣ Identify common number
 Step 3️⃣ Map them
+
+[Coding and decoding question](data/work/aptitude/Coding%20and%20decoding%20question.md)
