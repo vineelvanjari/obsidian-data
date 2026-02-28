@@ -1,1 +1,1 @@
- 
+Solved .git issue in obsidian 
