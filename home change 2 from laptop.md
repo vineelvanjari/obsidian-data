@@ -56,5 +56,5 @@ https://youtube.com/shorts/pVPclEoWsLU?si=u6Yx4g_JQ04iHYYl
 Parak agarval , build parallel.ai which beats chatgpt over internet search
 https://youtube.com/shorts/ifvaENMBEtY?si=X848pWrBFBY-g8Rv
 
-Google free guiding principles 
+Google free guiding principles (coding style guide)
 https://youtube.com/shorts/nmsYGncDYi0?si=GPyvsCEKELjKzNOa
