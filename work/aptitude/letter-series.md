@@ -365,5 +365,4 @@ We can build:
 
 Tell me which arc we unlock next 🔓🔥
 
-
-[[]]
+[Letter series question](data/work/aptitude/Letter%20series%20question.md)
