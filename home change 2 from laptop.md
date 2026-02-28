@@ -45,7 +45,8 @@ SECTION 1: Website Markdown Version
 
 01-03-26 — Standard Intelligence introduced FDM1, a general computer action model trained on 11 million hours of video that autonomously performs complex digital tasks via direct screen interaction. (https://si.inc/posts/fdm1/)
 
-01-03-26 — Sam Altman stated that although AI training is energy-intensive, it becomes significantly more energy-efficient than humans during inference. ()
+01-03-26 — Sam Altman stated that although AI training is energy-intensive, it becomes significantly more energy-efficient than humans during inference. (https://www.reddit.com/r/singularity/s/QZRrYRFV4t)
+
 01-03-26 — Parag Agrawal launched Parallel, an AI startup focused on collaborative AI systems for deep internet search and complex reasoning. (https://youtube.com/shorts/ifvaENMBEtY?si=X848pWrBFBY-g8Rv)
 
 01-03-26 — Google open-sourced its internal coding style guides to support consistent and maintainable software development practices. (https://youtube.com/shorts/nmsYGncDYi0?si=GPyvsCEKELjKzNOa)
