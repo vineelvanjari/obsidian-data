@@ -141,9 +141,9 @@ Dhyana · Atmajnana · Awareness
 </thead>
 <tbody>
 <tr>
-<td class="date-col">Sun, Mar 01</td>
-<td>Bhimavaram, Town Hall</td>
-<td><span class="contact-number">98480 12345</span> · Ramesh</td>
+<td class="date-col">7,8,9</td>
+<td> Darwada </td>
+<td><span class="contact-number">9019248516</span> · Ramesh</td>
 </tr>
 <tr>
 <td class="date-col">Sun, Mar 08</td>
