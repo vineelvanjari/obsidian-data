@@ -118,7 +118,7 @@
 <div class="schedule-title">
 <h1>March 2026 · Spiritual Class Schedule</h1>
 <p style="color: var(--text-muted); font-style: italic;">
-Dhyana · Atmajnana · Awareness
+Dhyan
 </p>
 </div>
 
@@ -177,19 +177,19 @@ Dhyana · Atmajnana · Awareness
 </thead>
 <tbody>
 <tr>
-<td class="date-col">T</td>
-<td>Bhimavaram, Pyramid Center</td>
-<td><span class="contact-number">98480 12345</span> · Ramesh</td>
+<td class="date-col">16-03-26</td>
+<td>Tirupathi</td>
+<td><span class="contact-number">8688063157</span> · vineel</td>
 </tr>
 <tr>
-<td class="date-col">Sat, Mar 14</td>
-<td>Guntur, Spiritual Society</td>
-<td><span class="contact-number">90100 30914</span> · Srinivas</td>
+<td class="date-col">17-03-26</td>
+<td>Bengaluru</td>
+<td><span class="contact-number">8179703440</span> · ganesh</td>
 </tr>
 <tr>
-<td class="date-col">Wed, Mar 25</td>
-<td>Online (Zoom)</td>
-<td><span class="contact-number">93962 93315</span> · Support</td>
+<td class="date-col">18-03-26</td>
+<td>Tirupathi</td>
+<td><span class="contact-number">7207112006</span> · Maniteja</td>
 </tr>
 </tbody>
 </table>
