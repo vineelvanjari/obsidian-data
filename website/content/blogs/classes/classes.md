@@ -146,7 +146,7 @@ Dhyana · Atmajnana · Awareness
 <td><span class="contact-number">9019248516</span> (Sai leela) </td>
 </tr>
 <tr>
-<td class="date-col">Sun, Mar 08</td>
+<td class="date-col">15-03-26</td>
 <td>Hyderabad, Kukatpally</td>
 <td><span class="contact-number">90100 30914</span> · Srinivas</td>
 </tr>
