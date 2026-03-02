@@ -143,7 +143,7 @@ Dhyana · Atmajnana · Awareness
 <tr>
 <td class="date-col">7,8,9</td>
 <td> Darwada </td>
-<td><span class="contact-number">9019248516</span> · Ramesh</td>
+<td><span class="contact-number">9019248516</span> (Sai leela) </td>
 </tr>
 <tr>
 <td class="date-col">Sun, Mar 08</td>
