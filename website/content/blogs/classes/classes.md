@@ -151,9 +151,9 @@ Dhyana · Atmajnana · Awareness
 <td><span class="contact-number">8368470727</span> · Malleshwari</td>
 </tr>
 <tr>
-<td class="date-col">Sun, Mar 15</td>
-<td>Vijayawada, PMC Center</td>
-<td><span class="contact-number">83684 70727</span> · Kiran</td>
+<td class="date-col">16,17,18</td>
+<td>Kadtal, Hyderabad</td>
+<td><span class="contact-number">7893917364</span> · Ki</td>
 </tr>
 </tbody>
 </table>
