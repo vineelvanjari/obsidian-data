@@ -153,7 +153,7 @@ Dhyana · Atmajnana · Awareness
 <tr>
 <td class="date-col">16,17,18</td>
 <td>Kadtal, Hyderabad</td>
-<td><span class="contact-number">7893917364</span> · Ki</td>
+<td><span class="contact-number">7893917364</span> · madhu</td>
 </tr>
 </tbody>
 </table>
@@ -177,7 +177,7 @@ Dhyana · Atmajnana · Awareness
 </thead>
 <tbody>
 <tr>
-<td class="date-col">Sat, Mar 07</td>
+<td class="date-col">T</td>
 <td>Bhimavaram, Pyramid Center</td>
 <td><span class="contact-number">98480 12345</span> · Ramesh</td>
 </tr>
