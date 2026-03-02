@@ -1,4 +1,3 @@
-
 <style>
 
 /* Container */
@@ -85,10 +84,29 @@
     background: var(--background-modifier-hover);
 }
 
+/* Center Contact Column */
+.schedule-table td:last-child,
+.schedule-table th:last-child {
+    text-align: center;
+}
+
+/* Date Column */
 .date-col {
     color: #8b2635;
     font-weight: 500;
     white-space: nowrap;
+}
+
+/* Contact Styling */
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.contact-item {
+    font-size: 0.9rem;
 }
 
 .contact-number {
@@ -139,19 +157,43 @@
 <tbody>
 <tr>
 <td class="date-col">7,8,9</td>
-<td> Darwada </td>
-<td><span class="contact-number">9019248516</span> (Sai leela) </td>
+<td>Darwada</td>
+<td>
+    <div class="contact-list">
+        <div class="contact-item">
+            <span class="contact-number">9019248516</span> · Sai Leela
+        </div>
+    </div>
+</td>
 </tr>
+
 <tr>
 <td class="date-col">15-03-26</td>
 <td>Hyderabad, Kukatpally</td>
-<td><span class="contact-number">8368470727</span> · Malleshwari</td>
+<td>
+    <div class="contact-list">
+        <div class="contact-item">
+            <span class="contact-number">8368470727</span> · Malleshwari
+        </div>
+    </div>
+</td>
 </tr>
+
 <tr>
 <td class="date-col">16,17,18</td>
 <td>Kadtal, Hyderabad</td>
-<td><span class="contact-number">7893917364</span> · madhu</td>
+<td>
+    <div class="contact-list">
+        <div class="contact-item">
+            <span class="contact-number">7893917364</span> · Madhu
+        </div>
+        <div class="contact-item">
+            <span class="contact-number">9876543210</span> · Srikanth
+        </div>
+    </div>
+</td>
 </tr>
+
 </tbody>
 </table>
 </div>
@@ -173,21 +215,43 @@
 </tr>
 </thead>
 <tbody>
+
 <tr>
 <td class="date-col">16-03-26</td>
 <td>Tirupathi</td>
-<td><span class="contact-number">8688063157</span> · vineel</td>
+<td>
+    <div class="contact-list">
+        <div class="contact-item">
+            <span class="contact-number">8688063157</span> · Vineel
+        </div>
+    </div>
+</td>
 </tr>
+
 <tr>
 <td class="date-col">17-03-26</td>
 <td>Bengaluru</td>
-<td><span class="contact-number">8179703440</span> · ganesh</td>
+<td>
+    <div class="contact-list">
+        <div class="contact-item">
+            <span class="contact-number">8179703440</span> · Ganesh
+        </div>
+    </div>
+</td>
 </tr>
+
 <tr>
 <td class="date-col">18-03-26</td>
 <td>Tirupathi</td>
-<td><span class="contact-number">7207112006</span> · Maniteja</td>
+<td>
+    <div class="contact-list">
+        <div class="contact-item">
+            <span class="contact-number">7207112006</span> · Maniteja
+        </div>
+    </div>
+</td>
 </tr>
+
 </tbody>
 </table>
 </div>
@@ -196,6 +260,3 @@
 </div>
 
 </div>
-
-
-
