@@ -1,102 +1,98 @@
+---
+title: March 2026 Classes
+type: scheduled
+month: 2026-03
+tags: [scheduled, TVR, TRL, 2026]
+---
 
 <style>
-:root {
-    --bg-main: #fdfbf7;
-    --card-bg: rgba(255,255,255,0.85);
-    --accent: #8b2635;
-    --gold: #d4af37;
-    --text-main: #2e2e2e;
-    --text-muted: #777;
-    --border-light: #ece6d8;
-}
 
-.markdown-preview-view {
-    background: var(--bg-main);
-    background-image: radial-gradient(#efe6d5 1px, transparent 1px);
-    background-size: 22px 22px;
-    padding: 30px;
+/* Container */
+.schedule-wrapper {
+    padding: 20px 10px;
 }
 
 /* Header */
-.month-header {
+.schedule-title {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-.month-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(1.8rem, 4vw, 2.6rem);
-    background: linear-gradient(90deg, var(--accent), var(--gold));
+.schedule-title h1 {
+    margin: 0;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    background: linear-gradient(90deg, #8b2635, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-/* Grid */
+/* Grid Layout */
 .schedule-grid {
     display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 /* Card */
 .guru-card {
-    background: var(--card-bg);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    border-top: 4px solid var(--gold);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    transition: 0.3s ease;
+    background: var(--background-secondary);
+    border-radius: 14px;
+    border-top: 4px solid #d4af37;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease;
 }
 
 .guru-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 18px 35px rgba(139, 38, 53, 0.15);
+    transform: translateY(-4px);
 }
 
-.card-header {
-    padding: 20px;
+/* Card Header */
+.guru-header {
+    padding: 18px;
     text-align: center;
-    border-bottom: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--background-modifier-border);
 }
 
-.card-header h2 {
+.guru-header h2 {
     margin: 0;
-    font-size: 1.2rem;
-    color: var(--accent);
+    font-size: 1.1rem;
+    color: #8b2635;
 }
 
-.table-wrapper {
-    padding: 20px;
+/* Table */
+.table-container {
+    padding: 15px;
     overflow-x: auto;
 }
 
-table {
+.schedule-table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 280px;
+    min-width: 260px;
 }
 
-th {
-    text-transform: uppercase;
+.schedule-table th {
+    text-align: left;
     font-size: 0.75rem;
+    text-transform: uppercase;
     letter-spacing: 0.5px;
+    padding: 10px 6px;
+    border-bottom: 2px solid #d4af37;
     color: var(--text-muted);
-    border-bottom: 2px solid var(--gold);
-    padding: 12px 6px;
 }
 
-td {
-    padding: 12px 6px;
-    border-bottom: 1px solid var(--border-light);
+.schedule-table td {
+    padding: 10px 6px;
+    border-bottom: 1px solid var(--background-modifier-border);
     font-size: 0.9rem;
 }
 
-tbody tr:hover {
-    background: #faf5ea;
+.schedule-table tr:hover {
+    background: var(--background-modifier-hover);
 }
 
-.date {
-    color: var(--accent);
+.date-col {
+    color: #8b2635;
     font-weight: 500;
     white-space: nowrap;
 }
@@ -105,32 +101,43 @@ tbody tr:hover {
     font-weight: 600;
 }
 
-.contact-name {
-    font-style: italic;
+/* Footer */
+.schedule-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85rem;
     color: var(--text-muted);
 }
 
-/* Mobile */
-@media (max-width: 500px) {
-    td, th {
+/* Mobile Fine Tuning */
+@media (max-width: 480px) {
+    .schedule-table th,
+    .schedule-table td {
         font-size: 0.8rem;
     }
 }
+
 </style>
 
-<div class="month-header">
+<div class="schedule-wrapper">
+
+<div class="schedule-title">
 <h1>March 2026 · Spiritual Class Schedule</h1>
-<p style="color:#777; font-style:italic;">Dhyana · Atmajnana · Awareness</p>
+<p style="color: var(--text-muted); font-style: italic;">
+Dhyana · Atmajnana · Awareness
+</p>
 </div>
 
 <div class="schedule-grid">
 
+<!-- TVR -->
 <div class="guru-card">
-<div class="card-header">
+<div class="guru-header">
 <h2>Brahmarshi<br>Tatavarty Veera Raghava Rao</h2>
 </div>
-<div class="table-wrapper">
-<table>
+
+<div class="table-container">
+<table class="schedule-table">
 <thead>
 <tr>
 <th>Date</th>
@@ -140,31 +147,33 @@ tbody tr:hover {
 </thead>
 <tbody>
 <tr>
-<td class="date">Sun, Mar 01</td>
+<td class="date-col">Sun, Mar 01</td>
 <td>Bhimavaram, Town Hall</td>
-<td><span class="contact-number">98480 12345</span> · <span class="contact-name">Ramesh</span></td>
+<td><span class="contact-number">98480 12345</span> · Ramesh</td>
 </tr>
 <tr>
-<td class="date">Sun, Mar 08</td>
+<td class="date-col">Sun, Mar 08</td>
 <td>Hyderabad, Kukatpally</td>
-<td><span class="contact-number">90100 30914</span> · <span class="contact-name">Srinivas</span></td>
+<td><span class="contact-number">90100 30914</span> · Srinivas</td>
 </tr>
 <tr>
-<td class="date">Sun, Mar 15</td>
+<td class="date-col">Sun, Mar 15</td>
 <td>Vijayawada, PMC Center</td>
-<td><span class="contact-number">83684 70727</span> · <span class="contact-name">Kiran</span></td>
+<td><span class="contact-number">83684 70727</span> · Kiran</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 
+<!-- TRL -->
 <div class="guru-card">
-<div class="card-header">
+<div class="guru-header">
 <h2>Brahma Vidhwarishta<br>Tatavarty Rajyalakshmi</h2>
 </div>
-<div class="table-wrapper">
-<table>
+
+<div class="table-container">
+<table class="schedule-table">
 <thead>
 <tr>
 <th>Date</th>
@@ -174,19 +183,19 @@ tbody tr:hover {
 </thead>
 <tbody>
 <tr>
-<td class="date">Sat, Mar 07</td>
+<td class="date-col">Sat, Mar 07</td>
 <td>Bhimavaram, Pyramid Center</td>
-<td><span class="contact-number">98480 12345</span> · <span class="contact-name">Ramesh</span></td>
+<td><span class="contact-number">98480 12345</span> · Ramesh</td>
 </tr>
 <tr>
-<td class="date">Sat, Mar 14</td>
+<td class="date-col">Sat, Mar 14</td>
 <td>Guntur, Spiritual Society</td>
-<td><span class="contact-number">90100 30914</span> · <span class="contact-name">Srinivas</span></td>
+<td><span class="contact-number">90100 30914</span> · Srinivas</td>
 </tr>
 <tr>
-<td class="date">Wed, Mar 25</td>
-<td>Online (Zoom Session)</td>
-<td><span class="contact-number">93962 93315</span> · <span class="contact-name">Support</span></td>
+<td class="date-col">Wed, Mar 25</td>
+<td>Online (Zoom)</td>
+<td><span class="contact-number">93962 93315</span> · Support</td>
 </tr>
 </tbody>
 </table>
@@ -195,50 +204,11 @@ tbody tr:hover {
 
 </div>
 
-<div style="text-align:center; margin-top:40px; font-size:0.85rem; color:#777;">
-</div>            background-image: radial-gradient(#f0eadd 1px, transparent 1px);
-            background-size: 20px 20px;
-            color: var(--text-main);
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+<div class="schedule-footer">
+Confirm venue 24 hours prior · Sessions begin at 6:00 AM
+</div>
 
-        .header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .header h1 {
-            font-family: 'Playfair Display', serif;
-            color: var(--accent-color);
-            font-size: 2.5rem;
-            margin: 0;
-            letter-spacing: 1px;
-        }
-
-        .header p {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-            margin-top: 10px;
-            font-style: italic;
-        }
-
-        .schedule-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-            gap: 40px;
-            width: 100%;
-            max-width: 1200px;
-        }
-
-        .guru-card {
-            background-color: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
+</div>            overflow: hidden;
             position: relative;
             border-top: 4px solid var(--gold-accent);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
