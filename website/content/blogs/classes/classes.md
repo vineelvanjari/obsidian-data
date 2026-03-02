@@ -1,9 +1,3 @@
----
-title: March 2026 Classes
-type: scheduled
-month: 2026-03
-tags: [scheduled, TVR, TRL, 2026]
----
 
 <style>
 
@@ -202,10 +196,6 @@ Dhyana · Atmajnana · Awareness
 </div>
 </div>
 
-</div>
-
-<div class="schedule-footer">
-Confirm venue 24 hours prior · Sessions begin at 6:00 AM
 </div>
 
 </div>
