@@ -1,158 +1,267 @@
----
-title: 🌸 March 2026 Classes
-type: scheduled
-month: 2026-03
-tags: [scheduled, TVR, TRL, 2026]
----
-<style>
-.month-container {
-  font-family: "Segoe UI", sans-serif;
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Spiritual Class Schedule</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-bg: #fdfbf7; /* Soft cream */
+            --card-bg: #ffffff;
+            --accent-color: #8b2635; /* Deep maroon */
+            --gold-accent: #d4af37; /* Soft gold */
+            --text-main: #333333;
+            --text-muted: #666666;
+            --table-border: #eaeaea;
+        }
 
-.month-title {
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+        body {
+            font-family: 'Lora', serif;
+            background-color: var(--primary-bg);
+            background-image: radial-gradient(#f0eadd 1px, transparent 1px);
+            background-size: 20px 20px;
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-.card {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border-radius: 16px;
-  padding: 20px;
-  margin-bottom: 25px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  border: 1px solid rgba(255,255,255,0.1);
-}
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
 
-.card h2 {
-  margin-top: 0;
-}
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-color);
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 1px;
+        }
 
-.tvr {
-  border-left: 6px solid #7b2ff7;
-}
+        .header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-top: 10px;
+            font-style: italic;
+        }
 
-.trl {
-  border-left: 6px solid #ff6a00;
-}
+        .schedule-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 40px;
+            width: 100%;
+            max-width: 1200px;
+        }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
-}
+        .guru-card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            position: relative;
+            border-top: 4px solid var(--gold-accent);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-th, td {
-  padding: 10px;
-  text-align: left;
-}
+        .guru-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(139, 38, 53, 0.1);
+        }
 
-th {
-  background-color: rgba(255,255,255,0.08);
-}
+        .card-header {
+            background: linear-gradient(to right, #ffffff, #fdfbf7);
+            padding: 25px 30px;
+            border-bottom: 1px solid var(--table-border);
+            text-align: center;
+        }
 
-tr:nth-child(even) {
-  background-color: rgba(255,255,255,0.04);
-}
+        .card-header h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-color);
+            font-size: 1.4rem;
+            margin: 0;
+            line-height: 1.4;
+        }
 
-.footer-note {
-  text-align: center;
-  margin-top: 30px;
-  opacity: 0.7;
-  font-size: 14px;
-}
-</style>
+        .table-container {
+            padding: 20px 30px 30px;
+            overflow-x: auto;
+        }
 
-<div class="month-container">
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
 
-<div class="month-title">
-🌸 March 2026 — Divine Schedule
-</div>
+        th {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 15px 10px;
+            border-bottom: 2px solid var(--gold-accent);
+        }
 
-<div class="card tvr">
-<h2>🟣 TVR — Brahmarshi Tatavarty Veera Raghava Rao</h2>
+        td {
+            padding: 16px 10px;
+            border-bottom: 1px solid var(--table-border);
+            font-size: 1rem;
+            color: var(--text-main);
+        }
 
-<table>
-<tr>
-<th>Date</th>
-<th>Location</th>
-<th>Contact</th>
-</tr>
+        tbody tr {
+            transition: background-color 0.2s ease;
+        }
 
-<tr>
-<td>03 Mar 2026</td>
-<td>Hyderabad – Kukatpally Pyramid Center</td>
-<td>9876543210 · Ramesh</td>
-</tr>
+        tbody tr:hover {
+            background-color: #fcf9f2;
+        }
 
-<tr>
-<td>10 Mar 2026</td>
-<td>Narsapur – Community Hall</td>
-<td>9123456780 · Lakshmi</td>
-</tr>
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
 
-<tr>
-<td>18 Mar 2026</td>
-<td>Secunderabad – Meditation Hall</td>
-<td>9012345678 · Suresh</td>
-</tr>
+        .date-col {
+            font-weight: 500;
+            color: var(--accent-color);
+            white-space: nowrap;
+        }
 
-<tr>
-<td>25 Mar 2026</td>
-<td>Warangal – Spiritual Center</td>
-<td>9988776655 · Anitha</td>
-</tr>
-</table>
+        .contact-col {
+            font-size: 0.95rem;
+        }
+        
+        .contact-number {
+            font-weight: 600;
+            color: #444;
+        }
 
-<p><strong>Time:</strong> 6:00 AM onwards</p>
-</div>
+        .contact-name {
+            color: var(--text-muted);
+            font-style: italic;
+        }
 
-<div class="card trl">
-<h2>🟡 TRL — Brahma Vidhwarishta Tatavarty Rajyalakshmi</h2>
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .schedule-container {
+                grid-template-columns: 1fr;
+            }
+            .card-header h2 {
+                font-size: 1.2rem;
+            }
+            td, th {
+                padding: 12px 8px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
 
-<table>
-<tr>
-<th>Date</th>
-<th>Location</th>
-<th>Contact</th>
-</tr>
+    <div class="header">
+        <h1>Monthly Class Schedule</h1>
+        <p>March 2026 · Dhyana & Atmajnana Sandesham</p>
+    </div>
 
-<tr>
-<td>05 Mar 2026</td>
-<td>Hyderabad – Ameerpet Hall</td>
-<td>9090909090 · Kavitha</td>
-</tr>
+    <div class="schedule-container">
+        
+        <div class="guru-card">
+            <div class="card-header">
+                <h2>‘Brahmarshi’<br>Tatavarty Veera Raghava Rao</h2>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Location</th>
+                            <th>Contact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="date-col">Sun, Mar 01</td>
+                            <td>Bhimavaram, Town Hall</td>
+                            <td class="contact-col"><span class="contact-number">98480 12345</span> · <span class="contact-name">Ramesh</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sat, Mar 08</td>
+                            <td>Vijayawada, PMC Center</td>
+                            <td class="contact-col"><span class="contact-number">90100 30914</span> · <span class="contact-name">Srinivas</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sun, Mar 15</td>
+                            <td>Kukatpally, Hyderabad</td>
+                            <td class="contact-col"><span class="contact-number">83684 70727</span> · <span class="contact-name">Kiran</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sun, Mar 22</td>
+                            <td>Rajahmundry, River Front</td>
+                            <td class="contact-col"><span class="contact-number">93962 93315</span> · <span class="contact-name">Lakshmi</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sun, Mar 29</td>
+                            <td>Vizag, Seethammadhara</td>
+                            <td class="contact-col"><span class="contact-number">99887 76655</span> · <span class="contact-name">Venkat</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-<tr>
-<td>12 Mar 2026</td>
-<td>Medak – Youth Center</td>
-<td>9345678123 · Pradeep</td>
-</tr>
+        <div class="guru-card">
+            <div class="card-header">
+                <h2>‘Brahma Vidhwarishta’<br>Tatavarty Rajyalakshmi</h2>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Location</th>
+                            <th>Contact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="date-col">Sat, Mar 07</td>
+                            <td>Bhimavaram, Pyramid Center</td>
+                            <td class="contact-col"><span class="contact-number">98480 12345</span> · <span class="contact-name">Ramesh</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sat, Mar 14</td>
+                            <td>Guntur, Spiritual Society</td>
+                            <td class="contact-col"><span class="contact-number">90100 30914</span> · <span class="contact-name">Srinivas</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sat, Mar 21</td>
+                            <td>Kukatpally, Hyderabad</td>
+                            <td class="contact-col"><span class="contact-number">83684 70727</span> · <span class="contact-name">Kiran</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Wed, Mar 25</td>
+                            <td>Online (Zoom Session)</td>
+                            <td class="contact-col"><span class="contact-number">93962 93315</span> · <span class="contact-name">Support</span></td>
+                        </tr>
+                        <tr>
+                            <td class="date-col">Sat, Mar 28</td>
+                            <td>Vizag, MVP Colony</td>
+                            <td class="contact-col"><span class="contact-number">99887 76655</span> · <span class="contact-name">Venkat</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-<tr>
-<td>20 Mar 2026</td>
-<td>Karimnagar – Meditation Hall</td>
-<td>9876501234 · Harini</td>
-</tr>
+    </div>
 
-<tr>
-<td>28 Mar 2026</td>
-<td>Sangareddy – Pyramid Center</td>
-<td>9000011111 · Raghav</td>
-</tr>
-</table>
-
-<p><strong>Time:</strong> 6:00 AM onwards</p>
-</div>
-
-<div class="footer-note">
-🕊 Confirm venue one day before session · Bring meditation mat
-</div>
-
-</div>
+</body>
+</html>
