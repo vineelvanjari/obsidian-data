@@ -117,9 +117,6 @@
 
 <div class="schedule-title">
 <h1>March 2026 · Spiritual Class Schedule</h1>
-<p style="color: var(--text-muted); font-style: italic;">
-Dhyan
-</p>
 </div>
 
 <div class="schedule-grid">
