@@ -7,6 +7,6 @@
 /surya [surya](website/content/blogs/surya/surya.md)
 /blogs/ai-news [AI-NEWS](website/content/blogs/AI-NEWS/AI-NEWS.md)
 /classes [classes](website/content/blogs/classes/classes.md)
-/spirituality/blogs/notebooklm-links [notebooklm-links](data/website/content/blogs/Spirituality/notebooklm-links.md)
+/spirituality/blogs/notebooklm-links [notebooklm-links](website/content/blogs/Spirituality/notebooklm-links.md)
 
 
