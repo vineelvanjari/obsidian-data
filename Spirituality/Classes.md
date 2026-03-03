@@ -87,8 +87,6 @@ Dr.venkata 9440076589
 
 17
 
-18
-
 బెంగళూరు vybhavi Shetty madam
 
 
