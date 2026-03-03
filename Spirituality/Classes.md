@@ -14,11 +14,11 @@ Balakrishna 9380080586
 రత్న వర్దిని 9880074358
 10
 తాడిపత్రి 
-Ravi Tadipatri 
+Ravi Tadipatri 7396055655
 
 11
 అనంతపూర్ 
-Subasini
+Subasini 
 
 12
 Guntakallu
