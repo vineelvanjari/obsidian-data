@@ -93,8 +93,6 @@ Ramesh: 9342801953
 Devanahalli taluk, Banglore rural
 Shivaji Rao:9242818072
 
-బెంగళూరు vybhavi Shetty madam
-
 
 
 20-03-26
