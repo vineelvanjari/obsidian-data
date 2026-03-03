@@ -22,7 +22,7 @@ Subasini 8331023123
 Pandurangaya 9247399122
 
 12
-Guntakallu
+ గుంటకల్లు
 Ramkrishna reddy 98664 23952
 
 15-03-26 
