@@ -18,11 +18,12 @@ Ravi Tadipatri 7396055655
 
 11
 అనంతపూర్ 
-Subasini 
+Subasini 8331023123
+Pandurangaya 9247399122
 
 12
 Guntakallu
-Ramkrishna reddy
+Ramkrishna reddy 
 
 15-03-26 
 కుకట్పల్లి హైదరాబాద్ 
