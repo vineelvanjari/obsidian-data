@@ -2,126 +2,101 @@
 
 /* Container */
 .schedule-wrapper {
-    padding: 20px 10px;
+    padding: 8px 6px;
 }
 
 /* Header */
 .schedule-title {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .schedule-title h1 {
     margin: 0;
-    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-size: clamp(1.4rem, 4vw, 2rem);
     background: linear-gradient(90deg, #8b2635, #d4af37);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-/* Grid Layout */
+/* Grid */
 .schedule-grid {
     display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 /* Card */
 .guru-card {
     background: var(--background-secondary);
-    border-radius: 14px;
-    border-top: 4px solid #d4af37;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    transition: transform 0.25s ease;
+    border-radius: 10px;
+    border-top: 3px solid #d4af37;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
 }
 
-.guru-card:hover {
-    transform: translateY(-4px);
-}
-
-/* Card Header */
+/* Header */
 .guru-header {
-    padding: 18px;
+    padding: 10px;
     text-align: center;
     border-bottom: 1px solid var(--background-modifier-border);
 }
 
 .guru-header h2 {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #8b2635;
 }
 
 /* Table */
 .table-container {
-    padding: 15px;
-    overflow-x: auto;
+    padding: 6px;
 }
 
 .schedule-table {
     width: 100%;
     border-collapse: collapse;
-    min-width: 260px;
 }
 
 .schedule-table th {
-    text-align: left;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding: 10px 6px;
+    font-size: 0.7rem;
+    padding: 6px 4px;
     border-bottom: 2px solid #d4af37;
+    text-align: left;
     color: var(--text-muted);
 }
 
 .schedule-table td {
-    padding: 10px 6px;
+    padding: 6px 4px;
     border-bottom: 1px solid var(--background-modifier-border);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    white-space: nowrap; /* single line */
 }
 
-.schedule-table tr:hover {
-    background: var(--background-modifier-hover);
-}
-
-/* Center Contact Column */
+/* Center contact column */
 .schedule-table td:last-child,
 .schedule-table th:last-child {
     text-align: center;
 }
 
-/* Date Column */
+/* Date column */
 .date-col {
     color: #8b2635;
     font-weight: 500;
-    white-space: nowrap;
 }
 
-/* Contact Styling */
+/* Multiple contacts */
 .contact-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
-}
-
-.contact-item {
-    font-size: 0.9rem;
+    gap: 2px;
 }
 
 .contact-number {
     font-weight: 600;
 }
 
-/* Footer */
-.schedule-footer {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 0.85rem;
-    color: var(--text-muted);
-}
-
-/* Mobile Fine Tuning */
+/* Mobile */
 @media (max-width: 480px) {
     .schedule-table th,
     .schedule-table td {
@@ -155,28 +130,17 @@
 </tr>
 </thead>
 <tbody>
+
 <tr>
 <td class="date-col">7,8,9</td>
 <td>Darwada</td>
-<td>
-    <div class="contact-list">
-        <div class="contact-item">
-            <span class="contact-number">9019248516</span> · Sai Leela
-        </div>
-    </div>
-</td>
+<td><span class="contact-number">9019248516</span> Sai Leela</td>
 </tr>
 
 <tr>
 <td class="date-col">15-03-26</td>
-<td>Hyderabad, Kukatpally</td>
-<td>
-    <div class="contact-list">
-        <div class="contact-item">
-            <span class="contact-number">8368470727</span> · Malleshwari
-        </div>
-    </div>
-</td>
+<td>Kukatpally, Hyderabad</td>
+<td><span class="contact-number">8368470727</span> Malleshwari</td>
 </tr>
 
 <tr>
@@ -184,12 +148,8 @@
 <td>Kadtal, Hyderabad</td>
 <td>
     <div class="contact-list">
-        <div class="contact-item">
-            <span class="contact-number">7893917364</span> · Madhu
-        </div>
-        <div class="contact-item">
-            <span class="contact-number">9876543210</span> · Srikanth
-        </div>
+        <div><span class="contact-number">7893917364</span> Madhu</div>
+        <div><span class="contact-number">9876543210</span> Srikanth</div>
     </div>
 </td>
 </tr>
@@ -219,33 +179,28 @@
 <tr>
 <td class="date-col">16-03-26</td>
 <td>Tirupathi</td>
-<td>
-    <div class="contact-list">
-        <div class="contact-item">
-            <span class="contact-number">8688063157</span> · Vineel
-        </div>
-    </div>
-</td>
+<td><span class="contact-number">8688063157</span> Vineel</td>
 </tr>
 
 <tr>
 <td class="date-col">17-03-26</td>
 <td>Bengaluru</td>
-<td>
-    <div class="contact-list">
-        <div class="contact-item">
-            <span class="contact-number">8179703440</span> · Ganesh
-        </div>
-    </div>
-</td>
+<td><span class="contact-number">8179703440</span> Ganesh</td>
 </tr>
 
 <tr>
 <td class="date-col">18-03-26</td>
 <td>Tirupathi</td>
-<td>
-    <div class="contact-list">
-        <div class="contact-item">
+<td><span class="contact-number">7207112006</span> Maniteja</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+
+</div>
+</div>        <div class="contact-item">
             <span class="contact-number">7207112006</span> · Maniteja
         </div>
     </div>
