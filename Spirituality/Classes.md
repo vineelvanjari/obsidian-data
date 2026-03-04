@@ -26,7 +26,7 @@
 | 10-03-26 | చీరాల                              | భాస్కర్ - 9290875883                                    |
 | 11-03-26 | గుంటూరు                            | నర్సిరెడ్డి - 7659895558<br>నాగ మల్లేశ్వరి - 6901261897 |
 | 15-03-26 | తిరుచానూరు తిరుపతి                 | సుమతి - 9676928296<br>రాణి - 9441256326                 |
-| 16-03-26 | —                                  | —                                                       |
+| 16-03-26 | Arekere, Banglore                  | Padmamma: 9620993939                                    |
 | 17-03-26 | Jayanagar, Bangalore               | Ramesh - 9342801953                                     |
 | 18-03-26 | Devanahalli taluk, Bangalore Rural | Shivaji Rao - 9242818072                                |
 | 20-03-26 | కొర్లగుండ తిరుపతి                  | 9441950061<br>9666765263                                |
@@ -122,6 +122,11 @@ Dr.venkata 9440076589
 
 
 16-03-26
+16.3.26
+Padmamma dhyana mandira
+34 Rampras mini, Natraj layout, JP Nagar 7th phase, Arekere, Banglore
+Padmamma: 9620993939
+
 
 17-03-26
 Jayanagar, Bangalore
