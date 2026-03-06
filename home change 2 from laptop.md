@@ -33,7 +33,7 @@ short mode
 ```
 ___
 AWS launches OpenClaw on Amazon Lightsail for private autonomous AI agents with Bedrock preconfig﻿ured-aws.amazon.com
-
+https://aws.amazon.com/blogs/aws/introducing-openclaw-on-amazon-lightsail-to-run-your-autonomous-private-ai-agents/?utm_source=futuretools.io&utm_medium=newspage
 
 ---
 
