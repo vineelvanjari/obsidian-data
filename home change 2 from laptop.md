@@ -32,7 +32,29 @@ tag includes #gate
 short mode  
 ```
 
+
+02-03-26
+OpenAI's ChatGPT app uninstalls jump 295% after DoD deal; Claude downloads rise-techcrunch.com
+
+https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/?utm_source=futuretools.io&utm_medium=newspage
+
+
+Claude adds Memory to free plan with easier import and export options-Claude on X
+https://x.com/claudeai/status/2028559427167834314?utm_source=futuretools.io&utm_medium=newspage
+
+Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks-Thariq on X
+https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&utm_medium=newspage
+
 03-03-26
+Deveillance Unveils Spectre I Smart Device to Block Unwanted Audio Recordings-Aida Baradari on X
+
+https://x.com/aidaxbaradari/status/2028864606568067491?utm_source=futuretools.io&utm_medium=newspage
+
+
+Google launches Gemini 3.1 Flash-Lite, fastest and most cost-efficient Gemini 3 model yet-blog.google
+
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite 
+
 
 Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills-claude.com
 https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&utm_medium=newspage
