@@ -34,6 +34,8 @@ short mode
 ___
 04-03-26
 
+Google Search AI Mode rolls out Canvas in U.S., adding writing and coding support-blog.google
+
 
 https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/?utm_source=futuretools.io&utm_medium=newspage
 
