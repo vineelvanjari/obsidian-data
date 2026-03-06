@@ -129,8 +129,8 @@ Contact:
 
 
 Date: 18-03-2026
-Location: దేవనహళ్లి తాలూకా, బెంగళూరు గ్రామీణం
-Map: https://www.google.com/maps/search/?api=1&query=Devanahalli+Bangalore+Rural
+Location: -
+Map: 
 Contact:
 శివాజీ రావు – 9242818072
 
@@ -143,25 +143,16 @@ Contact:
 9666765263
 
 
-Date: 22-03-2026
+Date: 22,23,24
 Location: గోదావరిఖని
 Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
 Contact:
 రమాదేవి – 7794918060
 
 
-Date: 23-03-2026
-Location: గోదావరిఖని
-Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
-Contact:
-రమాదేవి – 7794918060
 
 
-Date: 24-03-2026
-Location: గోదావరిఖని
-Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
-Contact:
-రమాదేవి – 7794918060
+
 
 
 
