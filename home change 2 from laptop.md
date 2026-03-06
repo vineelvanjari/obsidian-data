@@ -34,6 +34,12 @@ short mode
 ___
 04-03-26
 
+
+https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/?utm_source=futuretools.io&utm_medium=newspage
+
+
+Google NotebookLM adds Cinematic Video Overviews powered by Gemini 3 and Veo 3-blog.google
+
 https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/?utm_source=futuretools.io&utm_medium=newspage
 
 AWS launches OpenClaw on Amazon Lightsail for private autonomous AI agents with Bedrock preconfig﻿ured-aws.amazon.com
