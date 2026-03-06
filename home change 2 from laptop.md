@@ -34,6 +34,9 @@ short mode
 
 03-03-26
 
+Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills-claude.com
+https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&utm_medium=newspage
+
 
 OpenAI Developing Internal Alternative to Microsoft’s GitHub-theinformation.com
 https://www.theinformation.com/articles/openai-developing-alternative-microsofts-github?utm_source=futuretools.io&utm_medium=newspage
