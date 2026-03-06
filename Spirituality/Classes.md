@@ -2,6 +2,12 @@ TELUGU
 
 బ్రహ్మర్షి తటవర్తి వీర రాఘవ రావు గారు
 
+Date:01,02,03
+Location: భీమవరం
+Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
+Contact:
+సింధూర – 8555995217
+
 Date: 11-03-2026
 Location: అనంతపూర్
 Map: https://maps.app.goo.gl/z8BaDji9j7i71tSP9
@@ -21,7 +27,7 @@ Date: 15-03-2026
 Location: కుకట్పల్లి, హైదరాబాద్
 Map: https://www.google.com/maps/search/?api=1&query=Kukatpally+Hyderabad
 Contact:
-8368470727
+మల్లేశ్వరి - 8368470727
 9949183110
 
 
@@ -80,7 +86,7 @@ Contact:
 
 బ్రహ్మ విద్వరిష్ఠ తటవర్తి రాజ్యలక్ష్మి గారు
 
-Date: 01-03-2026
+Date:01,02,03
 Location: భీమవరం
 Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
 Contact:
