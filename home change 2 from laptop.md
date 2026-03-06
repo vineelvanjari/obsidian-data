@@ -32,6 +32,8 @@ tag includes #gate
 short mode  
 ```
 ___
+OpenAI Developing Internal Alternative to Microsoft’s GitHub-theinformation.com
+https://www.theinformation.com/articles/openai-developing-alternative-microsofts-github?utm_source=futuretools.io&utm_medium=newspage
 04-03-26
 
 OpenAI Codex App Launches on Windows With Native Agent Sandbox and PowerShell Support-OpenAI Developers on X
