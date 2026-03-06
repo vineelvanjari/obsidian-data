@@ -40,5 +40,9 @@ Netflix acquires AI filmmaking tools startup InterPositive, founded by Ben Affle
 
 https://about.netflix.com/en/news/why-interpositive-is-joining-netflix?utm_source=futuretools.io&utm_medium=newspage
 
+OpenAI launches GPT-5.4 with 1M-token context and improved coding and tool use-openai.com
+
+
+https://openai.com/index/introducing-gpt-5-4/?utm_source=futuretools.io&utm_medium=newspage
 
 
