@@ -31,7 +31,7 @@ Contact:
 9949183110
 
 
-Date: 16-03-2026
+Date: 16,17,18
 Location: కర్తాల్, హైదరాబాద్
 Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
 Contact:
@@ -39,37 +39,8 @@ Contact:
 శ్రీకాంత్ – 9010030914
 
 
-Date: 17-03-2026
-Location: కర్తాల్, హైదరాబాద్
-Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
-Contact:
-మధు – 7893917364
-శ్రీకాంత్ – 9010030914
 
-
-Date: 18-03-2026
-Location: కర్తాల్, హైదరాబాద్
-Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
-Contact:
-మధు – 7893917364
-శ్రీకాంత్ – 9010030914
-
-
-Date: 22-03-2026
-Location: నిజామాబాద్
-Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
-Contact:
-రజిని – 9177897749
-
-
-Date: 23-03-2026
-Location: నిజామాబాద్
-Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
-Contact:
-రజిని – 9177897749
-
-
-Date: 24-03-2026
+Date: 22,23,24
 Location: నిజామాబాద్
 Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
 Contact:
@@ -87,20 +58,6 @@ Contact:
 బ్రహ్మ విద్వరిష్ఠ తటవర్తి రాజ్యలక్ష్మి గారు
 
 Date:01,02,03
-Location: భీమవరం
-Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
-Contact:
-సింధూర – 8555995217
-
-
-Date: 02-03-2026
-Location: భీమవరం
-Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
-Contact:
-సింధూర – 8555995217
-
-
-Date: 03-03-2026
 Location: భీమవరం
 Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
 Contact:
