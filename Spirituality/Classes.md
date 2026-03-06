@@ -2,12 +2,14 @@ TELUGU
 
 బ్రహ్మర్షి తటవర్తి వీర రాఘవ రావు గారు
 
+**❌not completed**
 Date:01,02,03
 Location: భీమవరం
 Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
 Contact:
 సింధూర – 8555995217
 
+**❌not completed**
 Date: 11-03-2026
 Location: అనంతపూర్
 Map: https://maps.app.goo.gl/z8BaDji9j7i71tSP9
@@ -15,14 +17,14 @@ Contact:
 సుబాసిని – 8331023123
 పాండురంగయ్య – 9247399122
 
-
+**❌not completed**
 Date: 12-03-2026
 Location: గుంటకల్లు
 Map: https://www.google.com/maps/search/?api=1&query=Guntakal+Andhra+Pradesh
 Contact:
 రామకృష్ణ రెడ్డి – 9866423952
 
-
+**❌not completed**
 Date: 15-03-2026
 Location: కుకట్పల్లి, హైదరాబాద్
 Map: https://www.google.com/maps/search/?api=1&query=Kukatpally+Hyderabad
@@ -30,7 +32,7 @@ Contact:
 మల్లేశ్వరి - 8368470727
 9949183110
 
-
+**❌not completed**
 Date: 16,17,18
 Location: కర్తాల్, హైదరాబాద్
 Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
@@ -39,14 +41,14 @@ Contact:
 శ్రీకాంత్ – 9010030914
 
 
-
+**❌not completed**
 Date: 22,23,24
 Location: నిజామాబాద్
 Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
 Contact:
 రజిని – 9177897749
 
-
+**❌not completed**
 Date: 25-03-2026
 Location: సిద్దులగుట్ట
 Map: https://www.google.com/maps/search/?api=1&query=Siddulagupta+Telangana
@@ -57,20 +59,21 @@ Contact:
 
 బ్రహ్మ విద్వరిష్ఠ తటవర్తి రాజ్యలక్ష్మి గారు
 
+**❌not completed**
 Date:01,02,03
 Location: భీమవరం
 Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
 Contact:
 సింధూర – 8555995217
 
-
+**❌not completed**
 Date: 06-03-2026
 Location: ఏలూరు
 Map: https://www.google.com/maps/search/?api=1&query=Eluru+Andhra+Pradesh
 Contact:
 9701087800
 
-
+**❌not completed**
 Date: 07-03-2026
 Location: గోడుగుపేట, మచిలీపట్నం
 Map: https://www.google.com/maps/search/?api=1&query=Gudivada+Machilipatnam
@@ -78,28 +81,28 @@ Contact:
 9177716389
 6207401353
 
-
+**❌not completed**
 Date: 08-03-2026
 Location: కందుకూరు
 Map: https://www.google.com/maps/search/?api=1&query=Kandukur+Andhra+Pradesh
 Contact:
 డా. వెంకయ్య– 9440076589
 
-
+**❌not completed**
 Date: 09-03-2026
 Location: ఒంగోలు
 Map: https://www.google.com/maps/search/?api=1&query=Ongole+Andhra+Pradesh
 Contact:
 ఆచారి – 9440525701
 
-
+**❌not completed**
 Date: 10-03-2026
 Location: చీరాల
 Map: https://www.google.com/maps/search/?api=1&query=Chirala+Andhra+Pradesh
 Contact:
 భాస్కర్ – 9290875883
 
-
+**❌not completed**
 Date: 11-03-2026
 Location: గుంటూరు
 Map: https://www.google.com/maps/search/?api=1&query=Guntur+Andhra+Pradesh
@@ -107,7 +110,7 @@ Contact:
 నర్సిరెడ్డి – 7659895558
 నాగ మల్లేశ్వరి – 6901261897
 
-
+**❌not completed**
 Date: 15-03-2026
 Location: తిరుచానూరు, తిరుపతి
 Map: https://www.google.com/maps/search/?api=1&query=Tiruchanur+Tirupati
@@ -115,26 +118,30 @@ Contact:
 సుమతి – 9676928296
 రాణి – 9441256326
 
+
+**❌not completed**
 Date: 16-03-2026
 Location:  arekere, బెంగళూరు
 Map: https://www.google.com/maps/search/?api=1&query=Jayanagar+Bangalore
 Contact:
 రమేష్ – 9342801953
 
+
+**❌not completed**
 Date: 17-03-2026
 Location: జయనగర్, బెంగళూరు
 Map: https://www.google.com/maps/search/?api=1&query=Jayanagar+Bangalore
 Contact:
 రమేష్ – 9342801953
 
-
+**❌not completed**
 Date: 18-03-2026
 Location: -
 Map: 
 Contact:
 శివాజీ రావు – 9242818072
 
-
+**❌not completed**
 Date: 20-03-2026
 Location: కొర్లగుంట, తిరుపతి
 Map: https://www.google.com/maps/search/?api=1&query=Korlagunta+Tirupati
@@ -142,7 +149,7 @@ Contact:
 9441950061
 9666765263
 
-
+**❌not completed**
 Date: 22,23,24
 Location: గోదావరిఖని
 Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
