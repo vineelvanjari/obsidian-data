@@ -34,6 +34,10 @@ short mode
 ___
 04-03-26
 
+OpenAI Codex App Launches on Windows With Native Agent Sandbox and PowerShell Support-OpenAI Developers on X
+
+
+https://x.com/OpenAIDevs/status/2029252453246595301?utm_source=futuretools.io&utm_medium=newspage
 
 OpenAI launches Learning Outcomes Measurement Suite to assess AI’s impact on learning-openai.com
 
