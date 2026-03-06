@@ -1,230 +1,373 @@
+TELUGU
 
-# Classes Schedule – March 2026
+బ్రహ్మర్షి తటవర్తి వీర రాఘవ రావు గారు
 
-```
-{
-  "meta": {
-    "month": "2026-03"
-  },
+Date: 11-03-2026
+Location: అనంతపూర్
+Map: https://maps.app.goo.gl/z8BaDji9j7i71tSP9
+Contact:
+సుబాసిని – 8331023123
+పాండురంగయ్య – 9247399122
 
-  "languages": ["te", "en", "kn", "hi", "ta"],
 
-  "gurus": {
-    "tvr": {
-      "title": {
-        "te": "బ్రహ్మర్షి",
-        "en": "Brahmarshi",
-        "kn": "ಬ್ರಹ್ಮರ್ಷಿ",
-        "hi": "ब्रह्मर्षि",
-        "ta": "பிரம்மர்ஷி"
-      },
-      "name": {
-        "te": "తటవర్తి వీర రాఘవ రావు గారు",
-        "en": "Tatavarti Veera Raghava Rao Garu",
-        "kn": "ತಟವರ್ತಿ ವೀರ ರಾಘವ ರಾವ್ ಗಾರು",
-        "hi": "तटवर्ति वीर राघव राव गारु",
-        "ta": "தடவர்தி வீர ராகவ ராவ் காரு"
-      }
-    },
+Date: 12-03-2026
+Location: గుంటకల్లు
+Map: https://www.google.com/maps/search/?api=1&query=Guntakal+Andhra+Pradesh
+Contact:
+రామకృష్ణ రెడ్డి – 9866423952
 
-    "trl": {
-      "title": {
-        "te": "బ్రహ్మ విద్వరిష్ఠ",
-        "en": "Brahma Vidvarishta",
-        "kn": "ಬ್ರಹ್ಮ ವಿದ್ವರಿಷ್ಠ",
-        "hi": "ब्रह्म विद्वरिष्ठ",
-        "ta": "பிரம்ம வித்வரிஷ்ட"
-      },
-      "name": {
-        "te": "తటవర్తి రాజ్యలక్ష్మి గారు",
-        "en": "Tatavarti Rajyalakshmi Garu",
-        "kn": "ತಟವರ್ತಿ ರಾಜ್ಯಲಕ್ಷ್ಮಿ ಗಾರು",
-        "hi": "तटवर्ति राज्यलक्ष्मी गारु",
-        "ta": "தடவர்தி ராஜ்யலக்ஷ்மி காரு"
-      }
-    }
-  },
 
-  "locations": {
+Date: 15-03-2026
+Location: కుకట్పల్లి, హైదరాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Kukatpally+Hyderabad
+Contact:
+8368470727
+9949183110
 
-    "anantapur": {
-      "te": "అనంతపూర్",
-      "en": "Anantapur",
-      "kn": "ಅನಂತಪುರ",
-      "hi": "अनंतपुर",
-      "ta": "அனந்தபுர்",
-      "google_maps_url": ""
-    },
 
-    "guntakal": {
-      "te": "గుంటకల్లు",
-      "en": "Guntakal",
-      "kn": "ಗುಂಟಕಲ್",
-      "hi": "गुंटकल",
-      "ta": "குண்டகல்",
-      "google_maps_url": ""
-    },
+Date: 16-03-2026
+Location: కర్తాల్, హైదరాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
+Contact:
+మధు – 7893917364
+శ్రీకాంత్ – 9010030914
 
-    "kukatpally": {
-      "te": "కుకట్పల్లి, హైదరాబాద్",
-      "en": "Kukatpally, Hyderabad",
-      "kn": "ಕುಕಟ್ಪಳ್ಳಿ, ಹೈದರಾಬಾದ್",
-      "hi": "कुकटपल्ली, हैदराबाद",
-      "ta": "குகட்பள்ளி, ஹைதராபாத்",
-      "google_maps_url": ""
-    },
 
-    "kartal": {
-      "te": "కర్తాల్, హైదరాబాద్",
-      "en": "Kartal, Hyderabad",
-      "kn": "ಕರ್ತಾಲ್, ಹೈದರಾಬಾದ್",
-      "hi": "कर्ताल, हैदराबाद",
-      "ta": "கர்தால், ஹைதராபாத்",
-      "google_maps_url": ""
-    },
+Date: 17-03-2026
+Location: కర్తాల్, హైదరాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
+Contact:
+మధు – 7893917364
+శ్రీకాంత్ – 9010030914
 
-    "nizamabad": {
-      "te": "నిజామాబాద్",
-      "en": "Nizamabad",
-      "kn": "ನಿಜಾಮಾಬಾದ್",
-      "hi": "निजामाबाद",
-      "ta": "நிஜாமாபாத்",
-      "google_maps_url": ""
-    },
 
-    "siddulagutta": {
-      "te": "సిద్దులగుట్ట",
-      "en": "Siddulagupta",
-      "kn": "ಸಿದ್ದುಲಗುಟ್ಟ",
-      "hi": "सिद्दुलगुट्टा",
-      "ta": "சிட்டுலகுட்ட",
-      "google_maps_url": ""
-    },
+Date: 18-03-2026
+Location: కర్తాల్, హైదరాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
+Contact:
+మధు – 7893917364
+శ్రీకాంత్ – 9010030914
 
-    "bhimavaram": {
-      "te": "భీమవరం",
-      "en": "Bhimavaram",
-      "kn": "ಭೀಮವರಂ",
-      "hi": "भीमवरम",
-      "ta": "பீமவரம்",
-      "google_maps_url": ""
-    },
 
-    "eluru": {
-      "te": "ఏలూరు",
-      "en": "Eluru",
-      "kn": "ಏಲೂರು",
-      "hi": "एलूरु",
-      "ta": "ஏலூரு",
-      "google_maps_url": ""
-    },
+Date: 22-03-2026
+Location: నిజామాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
+Contact:
+రజిని – 9177897749
 
-    "machilipatnam": {
-      "te": "గోడుగుపేట, మచిలీపట్నం",
-      "en": "Gudivada, Machilipatnam",
-      "kn": "ಗೊಡುಗುಪೇಟ, ಮಚಿಲೀಪಟ್ನಂ",
-      "hi": "गोडुगुपेट, मछलीपट्टनम",
-      "ta": "கோடுகுபேட, மசிலிபட்டினம்",
-      "google_maps_url": ""
-    },
 
-    "kandukur": {
-      "te": "కందుకూరు",
-      "en": "Kandukur",
-      "kn": "ಕಂದುಕೂರು",
-      "hi": "कंदुकूरु",
-      "ta": "கந்துகூரு",
-      "google_maps_url": ""
-    },
+Date: 23-03-2026
+Location: నిజామాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
+Contact:
+రజిని – 9177897749
 
-    "ongole": {
-      "te": "ఒంగోలు",
-      "en": "Ongole",
-      "kn": "ಒಂಗೋಲು",
-      "hi": "ओंगोलु",
-      "ta": "ஒங்கோலு",
-      "google_maps_url": ""
-    },
 
-    "chirala": {
-      "te": "చీరాల",
-      "en": "Chirala",
-      "kn": "ಚೀರಾಲ",
-      "hi": "चीराल",
-      "ta": "சீராள்",
-      "google_maps_url": ""
-    },
+Date: 24-03-2026
+Location: నిజామాబాద్
+Map: https://www.google.com/maps/search/?api=1&query=Nizamabad+Telangana
+Contact:
+రజిని – 9177897749
 
-    "guntur": {
-      "te": "గుంటూరు",
-      "en": "Guntur",
-      "kn": "ಗುಂಟೂರು",
-      "hi": "गुंटूरु",
-      "ta": "குண்டூரு",
-      "google_maps_url": ""
-    },
 
-    "tiruchanur": {
-      "te": "తిరుచానూరు, తిరుపతి",
-      "en": "Tiruchanur, Tirupati",
-      "kn": "ತಿರುಚಾನೂರು, ತಿರುಪತಿ",
-      "hi": "तिरुचानूरु, तिरुपति",
-      "ta": "திருச்சானூர், திருப்பதி",
-      "google_maps_url": ""
-    },
+Date: 25-03-2026
+Location: సిద్దులగుట్ట
+Map: https://www.google.com/maps/search/?api=1&query=Siddulagupta+Telangana
+Contact:
+శేఖర్ రెడ్డి – 9441266667
 
-    "jayanagar": {
-      "te": "జయనగర్, బెంగళూరు",
-      "en": "Jayanagar, Bangalore",
-      "kn": "ಜಯನಗರ, ಬೆಂಗಳೂರು",
-      "hi": "जयनगर, बेंगलुरु",
-      "ta": "ஜெயநகர், பெங்களூரு",
-      "google_maps_url": ""
-    },
 
-    "devanahalli": {
-      "te": "దేవనహళ్లి తాలూకా, బెంగళూరు",
-      "en": "Devanahalli, Bangalore Rural",
-      "kn": "ದೇವನಹಳ್ಳಿ ತಾಲೂಕು, ಬೆಂಗಳೂರು",
-      "hi": "देवनहल्ली, बेंगलुरु ग्रामीण",
-      "ta": "தேவனஹள்ளி, பெங்களூரு",
-      "google_maps_url": ""
-    },
 
-    "korlagunta": {
-      "te": "కొర్లగుంట, తిరుపతి",
-      "en": "Korlagunta, Tirupati",
-      "kn": "ಕೊರ್ಲಗುಂಟ, ತಿರುಪತಿ",
-      "hi": "कोर्लगुंट, तिरुपति",
-      "ta": "கொர்லகுண்ட, திருப்பதி",
-      "google_maps_url": ""
-    },
+బ్రహ్మ విద్వరిష్ఠ తటవర్తి రాజ్యలక్ష్మి గారు
 
-    "godavarikhani": {
-      "te": "గోదావరిఖని",
-      "en": "Godavarikhani",
-      "kn": "ಗೋದಾವರಿಖನಿ",
-      "hi": "गोदावरीखनि",
-      "ta": "கோதாவரிகாணி",
-      "google_maps_url": ""
-    }
-  }
-}
-```
+Date: 01-03-2026
+Location: భీమవరం
+Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
+Contact:
+సింధూర – 8555995217
+
+
+Date: 02-03-2026
+Location: భీమవరం
+Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
+Contact:
+సింధూర – 8555995217
+
+
+Date: 03-03-2026
+Location: భీమవరం
+Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
+Contact:
+సింధూర – 8555995217
+
+
+Date: 06-03-2026
+Location: ఏలూరు
+Map: https://www.google.com/maps/search/?api=1&query=Eluru+Andhra+Pradesh
+Contact:
+9701087800
+
+
+Date: 07-03-2026
+Location: గోడుగుపేట, మచిలీపట్నం
+Map: https://www.google.com/maps/search/?api=1&query=Gudivada+Machilipatnam
+Contact:
+9177716389
+6207401353
+
+
+Date: 08-03-2026
+Location: కందుకూరు
+Map: https://www.google.com/maps/search/?api=1&query=Kandukur+Andhra+Pradesh
+Contact:
+డా. వెంకట – 9440076589
+
+
+Date: 09-03-2026
+Location: ఒంగోలు
+Map: https://www.google.com/maps/search/?api=1&query=Ongole+Andhra+Pradesh
+Contact:
+ఆచారి – 9440525701
+
+
+Date: 10-03-2026
+Location: చీరాల
+Map: https://www.google.com/maps/search/?api=1&query=Chirala+Andhra+Pradesh
+Contact:
+భాస్కర్ – 9290875883
+
+
+Date: 11-03-2026
+Location: గుంటూరు
+Map: https://www.google.com/maps/search/?api=1&query=Guntur+Andhra+Pradesh
+Contact:
+నర్సిరెడ్డి – 7659895558
+నాగ మల్లేశ్వరి – 6901261897
+
+
+Date: 15-03-2026
+Location: తిరుచానూరు, తిరుపతి
+Map: https://www.google.com/maps/search/?api=1&query=Tiruchanur+Tirupati
+Contact:
+సుమతి – 9676928296
+రాణి – 9441256326
+
+
+Date: 17-03-2026
+Location: జయనగర్, బెంగళూరు
+Map: https://www.google.com/maps/search/?api=1&query=Jayanagar+Bangalore
+Contact:
+రమేష్ – 9342801953
+
+
+Date: 18-03-2026
+Location: దేవనహళ్లి తాలూకా, బెంగళూరు గ్రామీణం
+Map: https://www.google.com/maps/search/?api=1&query=Devanahalli+Bangalore+Rural
+Contact:
+శివాజీ రావు – 9242818072
+
+
+Date: 20-03-2026
+Location: కొర్లగుంట, తిరుపతి
+Map: https://www.google.com/maps/search/?api=1&query=Korlagunta+Tirupati
+Contact:
+9441950061
+9666765263
+
+
+Date: 22-03-2026
+Location: గోదావరిఖని
+Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
+Contact:
+రమాదేవి – 7794918060
+
+
+Date: 23-03-2026
+Location: గోదావరిఖని
+Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
+Contact:
+రమాదేవి – 7794918060
+
+
+Date: 24-03-2026
+Location: గోదావరిఖని
+Map: https://www.google.com/maps/search/?api=1&query=Godavarikhani+Telangana
+Contact:
+రమాదేవి – 7794918060
 
 
 
 
+ENGLISH
+
+Brahmarshi Tatavarti Veera Raghava Rao Garu
+
+Date: 11-03-2026
+Location: Anantapur
+Contact:
+Subasini – 8331023123
+Pandurangaiah – 9247399122
+
+
+Date: 12-03-2026
+Location: Guntakal
+Contact:
+Ramakrishna Reddy – 9866423952
+
+
+Date: 15-03-2026
+Location: Kukatpally, Hyderabad
+Contact:
+8368470727
+9949183110
+
+
+Date: 16-03-2026
+Location: Kartal, Hyderabad
+Contact:
+Madhu – 7893917364
+Srikanth – 9010030914
+
+
+Date: 17-03-2026
+Location: Kartal, Hyderabad
+Contact:
+Madhu – 7893917364
+Srikanth – 9010030914
+
+
+Date: 18-03-2026
+Location: Kartal, Hyderabad
+Contact:
+Madhu – 7893917364
+Srikanth – 9010030914
+
+
+Date: 22-03-2026
+Location: Nizamabad
+Contact:
+Rajini – 9177897749
+
+
+Date: 23-03-2026
+Location: Nizamabad
+Contact:
+Rajini – 9177897749
+
+
+Date: 24-03-2026
+Location: Nizamabad
+Contact:
+Rajini – 9177897749
+
+
+Date: 25-03-2026
+Location: Siddulagupta
+Contact:
+Shekhar Reddy – 9441266667
 
 
 
+Brahma Vidvarishta Tatavarti Rajyalakshmi Garu
+
+Date: 01-03-2026
+Location: Bhimavaram
+Contact:
+Sindhura – 8555995217
 
 
+Date: 02-03-2026
+Location: Bhimavaram
+Contact:
+Sindhura – 8555995217
 
 
+Date: 03-03-2026
+Location: Bhimavaram
+Contact:
+Sindhura – 8555995217
 
 
+Date: 06-03-2026
+Location: Eluru
+Contact:
+9701087800
 
+
+Date: 07-03-2026
+Location: Godugupet, Machilipatnam
+Contact:
+9177716389
+6207401353
+
+
+Date: 08-03-2026
+Location: Kandukur
+Contact:
+Dr. Venkata – 9440076589
+
+
+Date: 09-03-2026
+Location: Ongole
+Contact:
+Achari – 9440525701
+
+
+Date: 10-03-2026
+Location: Chirala
+Contact:
+Bhaskar – 9290875883
+
+
+Date: 11-03-2026
+Location: Guntur
+Contact:
+Narsireddy – 7659895558
+Naga Malleswari – 6901261897
+
+
+Date: 15-03-2026
+Location: Tiruchanur, Tirupati
+Contact:
+Sumathi – 9676928296
+Rani – 9441256326
+
+
+Date: 17-03-2026
+Location: Jayanagar, Bangalore
+Contact:
+Ramesh – 9342801953
+
+
+Date: 18-03-2026
+Location: Devanahalli, Bangalore Rural
+Contact:
+Shivaji Rao – 9242818072
+
+
+Date: 20-03-2026
+Location: Korlagunta, Tirupati
+Contact:
+9441950061
+9666765263
+
+
+Date: 22-03-2026
+Location: Godavarikhani
+Contact:
+Ramadevi – 7794918060
+
+
+Date: 23-03-2026
+Location: Godavarikhani
+Contact:
+Ramadevi – 7794918060
+
+
+Date: 24-03-2026
+Location: Godavarikhani
+Contact:
+Ramadevi – 7794918060
 
 
 
