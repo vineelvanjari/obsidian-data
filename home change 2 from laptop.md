@@ -34,6 +34,12 @@ short mode
 ___
 04-03-26
 
+
+OpenAI launches Learning Outcomes Measurement Suite to assess AI’s impact on learning-openai.com
+
+
+https://openai.com/index/understanding-ai-and-learning-outcomes/?utm_source=futuretools.io&utm_medium=newspage
+
 Google Search AI Mode rolls out Canvas in U.S., adding writing and coding support-blog.google
 
 
