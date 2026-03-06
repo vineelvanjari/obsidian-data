@@ -83,7 +83,7 @@ Date: 08-03-2026
 Location: కందుకూరు
 Map: https://www.google.com/maps/search/?api=1&query=Kandukur+Andhra+Pradesh
 Contact:
-డా. వెంకట – 9440076589
+డా. వెంకయ్య– 9440076589
 
 
 Date: 09-03-2026
@@ -115,6 +115,11 @@ Contact:
 సుమతి – 9676928296
 రాణి – 9441256326
 
+Date: 16-03-2026
+Location:  arekere, బెంగళూరు
+Map: https://www.google.com/maps/search/?api=1&query=Jayanagar+Bangalore
+Contact:
+రమేష్ – 9342801953
 
 Date: 17-03-2026
 Location: జయనగర్, బెంగళూరు
