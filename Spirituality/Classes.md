@@ -12,7 +12,7 @@ Contact:
 **❌not completed**
 Date: 11-03-2026
 Location: అనంతపూర్
-Map: 
+Map: https://maps.app.goo.gl/TvayZAR8SRNMjqZy8
 Contact:
 పాండురంగయ్య – 9247399122
 సుబాసిని – 8331023123
