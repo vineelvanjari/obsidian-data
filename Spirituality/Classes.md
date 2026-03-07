@@ -70,13 +70,13 @@ Map: https://www.google.com/maps/search/?api=1&query=Eluru+Andhra+Pradesh
 Contact:
 9701087800
 
-**❌not completed**
+
 Date: 07-03-2026
 Location: గోడుగుపేట, మచిలీపట్నం
-Map: https://www.google.com/maps/search/?api=1&query=Gudivada+Machilipatnam
+Map: https://maps.app.goo.gl/SWMnhGSWnbu8kzu6A
 Contact:
-9177716389
-6207401353
+9177716389 రాము 
+6207401353 పావని 
 
 **❌not completed**
 Date: 08-03-2026
