@@ -2,11 +2,10 @@ TELUGU
 
 బ్రహ్మర్షి తటవర్తి వీర రాఘవ రావు గారు
 
-**❌not completed**
+
 Date:01,02,03
 Location: భీమవరం
-Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
-Contact:
+Contact:Map: https://maps.app.goo.gl/eWsjKXtQ8YbJiZm86
 సింధూర – 8555995217
 
 **❌not completed**
@@ -24,18 +23,18 @@ Map: https://www.google.com/maps/search/?api=1&query=Guntakal+Andhra+Pradesh
 Contact:
 రామకృష్ణ రెడ్డి – 9866423952
 
-**❌not completed**
+
 Date: 15-03-2026
-Location: కుకట్పల్లి, హైదరాబాద్
-Map: https://www.google.com/maps/search/?api=1&query=Kukatpally+Hyderabad
+Location: కుకట్ పల్లి, హైదరాబాద్
+Map: https://maps.app.goo.gl/7orppTVGCwXFeFQB9
 Contact:
 మల్లేశ్వరి - 8368470727
-9949183110
+శ్రీకాంత్ – 9010030914
 
 **❌not completed**
 Date: 16,17,18
 Location: కర్తాల్, హైదరాబాద్
-Map: https://www.google.com/maps/search/?api=1&query=Kartal+Hyderabad
+Map: https://maps.app.goo.gl/Kpot9ZXcWrSYVMRcA
 Contact:
 మధు – 7893917364
 శ్రీకాంత్ – 9010030914
@@ -59,11 +58,9 @@ Contact:
 
 బ్రహ్మ విద్వరిష్ఠ తటవర్తి రాజ్యలక్ష్మి గారు
 
-**❌not completed**
 Date:01,02,03
 Location: భీమవరం
-Map: https://www.google.com/maps/search/?api=1&query=Bhimavaram+Andhra+Pradesh
-Contact:
+Contact:Map: https://maps.app.goo.gl/eWsjKXtQ8YbJiZm86
 సింధూర – 8555995217
 
 **❌not completed**
