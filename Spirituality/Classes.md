@@ -9,6 +9,13 @@ Map: https://maps.app.goo.gl/eWsjKXtQ8YbJiZm86
 Contact:
 సింధూర – 8555995217
 
+Date: 10-03-2026
+Location: తాడిపత్రి 
+Map: https://maps.app.goo.gl/fezihkRAXug9fn546
+Contact:
+రవి  – 7396055655
+సుబాసిని – 8499957217
+
 
 Date: 11-03-2026
 Location: అనంతపూర్
