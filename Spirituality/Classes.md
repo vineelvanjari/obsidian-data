@@ -108,7 +108,7 @@ SIVA KUMARI - 6301781926
 
 Date: 11-03-2026
 Location: గుంటూరు
-Map: 
+Map: https://maps.app.goo.gl/oCpAHU3JgYZCaB159
 Contact:
 నర్సిరెడ్డి – 7659895558
 నాగ మల్లేశ్వరి – 6901261897
