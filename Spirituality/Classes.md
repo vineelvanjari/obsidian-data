@@ -18,13 +18,13 @@ Contact:
 సుబాసిని – 8331023123
 
 
-**❌not completed**
+
 Date: 12-03-2026
 Location: గుంటకల్లు
-Map: 
+Map: https://maps.app.goo.gl/dpkik45Uzbxc5r8V9
 Contact:
 రామకృష్ణ రెడ్డి – 9866423952
-
+Ramanjinl - 9922346384 
 
 Date: 15-03-2026
 Location: కుకట్ పల్లి, హైదరాబాద్
@@ -68,7 +68,6 @@ Map: https://maps.app.goo.gl/eWsjKXtQ8YbJiZm86
 Contact:
 సింధూర – 8555995217
 
-**❌not completed**
 Date: 06-03-2026
 Location: ఏలూరు
 Map: 
@@ -106,7 +105,7 @@ Contact:
 భాస్కర్ – 9290875883
 SIVA KUMARI - 6301781926
 
-**❌not completed**
+
 Date: 11-03-2026
 Location: గుంటూరు
 Map: 
@@ -114,7 +113,7 @@ Contact:
 నర్సిరెడ్డి – 7659895558
 నాగ మల్లేశ్వరి – 6901261897
 
-**❌not completed**
+
 Date: 15-03-2026
 Location: తిరుచానూరు, తిరుపతి
 Map: 
@@ -123,7 +122,7 @@ Contact:
 రాణి – 9441256326
 
 
-**❌not completed**
+
 Date: 16-03-2026
 Location:  arekere, బెంగళూరు
 Map:
@@ -131,21 +130,21 @@ Contact:
 రమేష్ – 9342801953
 
 
-**❌not completed**
+
 Date: 17-03-2026
 Location: జయనగర్, బెంగళూరు
 Map: 
 Contact:
 రమేష్ – 9342801953
 
-**❌not completed**
+
 Date: 18-03-2026
 Location: -
 Map: 
 Contact:
 శివాజీ రావు – 9242818072
 
-**❌not completed**
+
 Date: 20-03-2026
 Location: కొర్లగుంట, తిరుపతి
 Map:
@@ -153,221 +152,13 @@ Contact:
 9441950061
 9666765263
 
-**❌not completed**
+
 Date: 22,23,24
 Location: గోదావరిఖని
 Map: 
 Contact:
 రమాదేవి – 7794918060
-కిరణ్ - 8686180680
-
-
-
-
-
-
-
-
-
-ENGLISH
-
-Brahmarshi Tatavarti Veera Raghava Rao Garu
-
-Date: 11-03-2026
-Location: Anantapur
-Contact:
-Subasini – 8331023123
-Pandurangaiah – 9247399122
-
-
-Date: 12-03-2026
-Location: Guntakal
-Contact:
-Ramakrishna Reddy – 9866423952
-
-
-Date: 15-03-2026
-Location: Kukatpally, Hyderabad
-Contact:
-8368470727
-9949183110
-
-
-Date: 16-03-2026
-Location: Kartal, Hyderabad
-Contact:
-Madhu – 7893917364
-Srikanth – 9010030914
-
-
-Date: 17-03-2026
-Location: Kartal, Hyderabad
-Contact:
-Madhu – 7893917364
-Srikanth – 9010030914
-
-
-Date: 18-03-2026
-Location: Kartal, Hyderabad
-Contact:
-Madhu – 7893917364
-Srikanth – 9010030914
-
-
-Date: 22-03-2026
-Location: Nizamabad
-Contact:
-Rajini – 9177897749
-
-
-Date: 23-03-2026
-Location: Nizamabad
-Contact:
-Rajini – 9177897749
-
-
-Date: 24-03-2026
-Location: Nizamabad
-Contact:
-Rajini – 9177897749
-
-
-Date: 25-03-2026
-Location: Siddulagupta
-Contact:
-Shekhar Reddy – 9441266667
-
-
-
-Brahma Vidvarishta Tatavarti Rajyalakshmi Garu
-
-Date: 01-03-2026
-Location: Bhimavaram
-Contact:
-Sindhura – 8555995217
-
-
-Date: 02-03-2026
-Location: Bhimavaram
-Contact:
-Sindhura – 8555995217
-
-
-Date: 03-03-2026
-Location: Bhimavaram
-Contact:
-Sindhura – 8555995217
-
-
-Date: 06-03-2026
-Location: Eluru
-Contact:
-9701087800
-
-
-Date: 07-03-2026
-Location: Godugupet, Machilipatnam
-Contact:
-9177716389
-6207401353
-
-
-Date: 08-03-2026
-Location: Kandukur
-Contact:
-Dr. Venkata – 9440076589
-
-
-Date: 09-03-2026
-Location: Ongole
-Contact:
-Achari – 9440525701
-
-
-Date: 10-03-2026
-Location: Chirala
-Contact:
-Bhaskar – 9290875883
-
-
-Date: 11-03-2026
-Location: Guntur
-Contact:
-Narsireddy – 7659895558
-Naga Malleswari – 6901261897
-
-
-Date: 15-03-2026
-Location: Tiruchanur, Tirupati
-Contact:
-Sumathi – 9676928296
-Rani – 9441256326
-
-
-Date: 17-03-2026
-Location: Jayanagar, Bangalore
-Contact:
-Ramesh – 9342801953
-
-
-Date: 18-03-2026
-Location: Devanahalli, Bangalore Rural
-Contact:
-Shivaji Rao – 9242818072
-
-
-Date: 20-03-2026
-Location: Korlagunta, Tirupati
-Contact:
-9441950061
-9666765263
-
-
-Date: 22-03-2026
-Location: Godavarikhani
-Contact:
-Ramadevi – 7794918060
-
-
-Date: 23-03-2026
-Location: Godavarikhani
-Contact:
-Ramadevi – 7794918060
-
-
-Date: 24-03-2026
-Location: Godavarikhani
-Contact:
-Ramadevi – 7794918060
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Jagadeesh - 9494721339
 
 
 
