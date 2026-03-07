@@ -9,7 +9,7 @@ Map: https://maps.app.goo.gl/eWsjKXtQ8YbJiZm86
 Contact:
 సింధూర – 8555995217
 
-**❌not completed**
+
 Date: 11-03-2026
 Location: అనంతపూర్
 Map: https://maps.app.goo.gl/TvayZAR8SRNMjqZy8
@@ -33,7 +33,7 @@ Contact:
 మల్లేశ్వరి - 8368470727
 శ్రీకాంత్ – 9010030914
 
-**❌not completed**
+
 Date: 16,17,18
 Location: కర్తాల్, హైదరాబాద్
 Map: https://maps.app.goo.gl/dMR6z8hmSzhrKMdA7
@@ -42,19 +42,21 @@ Contact:
 శ్రీకాంత్ – 9010030914
 
 
-**❌not completed**
+
 Date: 22,23,24
 Location: నిజామాబాద్
-Map: 
+Map: https://maps.app.goo.gl/3FgngW1sgyqc867R8
 Contact:
-రజిని – 9177897749
+అరుణ్ బాబు - 76808 50692
+శివపారిజాతం - 98667 19070
 
-**❌not completed**
+
 Date: 25-03-2026
 Location: సిద్దులగుట్ట
-Map:
+Map:https://maps.app.goo.gl/oJSVsgpskzycKS9o7
 Contact:
-శేఖర్ రెడ్డి – 9441266667
+Gangaram -  9848612392
+Shekar reddy - 9441266667.
 
 
 
@@ -89,10 +91,10 @@ Contact:
 డా. వెంకయ్య– 9440076589
 Simhadri - 7780353022
 
-**❌not completed**
+
 Date: 09-03-2026
 Location: ఒంగోలు
-Map: 
+Map: https://maps.app.goo.gl/4kDUjSFAwWnek34XA
 Contact:
 ఆచారి – 9440525701
 
