@@ -98,3 +98,6 @@ OpenAI launches GPT-5.4 with 1M-token context and improved coding and tool use-o
 https://openai.com/index/introducing-gpt-5-4/?utm_source=futuretools.io&utm_medium=newspage
 
 
+07-03-26
+smart glasses from sarvam AI
+https://youtu.be/OWPIifJpvXo?si=O8kUt81gTN4I6bzl
