@@ -96,12 +96,13 @@ Map:
 Contact:
 ఆచారి – 9440525701
 
-**❌not completed**
+
 Date: 10-03-2026
 Location: చీరాల
-Map: 
+Map: https://maps.app.goo.gl/bbATSLzutbw6KZGF9
 Contact:
 భాస్కర్ – 9290875883
+SIVA KUMARI - 6301781926
 
 **❌not completed**
 Date: 11-03-2026
