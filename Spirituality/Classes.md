@@ -75,19 +75,14 @@ Map: https://maps.app.goo.gl/eWsjKXtQ8YbJiZm86
 Contact:
 సింధూర – 8555995217
 
-Date: 06-03-2026
-Location: ఏలూరు
-Map: 
-Contact:
-9701087800
 
 
 Date: 07-03-2026
 Location: గోడుగుపేట, మచిలీపట్నం
 Map: https://maps.app.goo.gl/Y1j46f1rWRuXWq48A
 Contact:
-9177716389 రాము 
-6207401353 పావని 
+ రాము 9177716389
+ పావని 6207401353
 
 
 Date: 08-03-2026
@@ -154,10 +149,10 @@ Contact:
 
 Date: 20-03-2026
 Location: కొర్లగుంట, తిరుపతి
-Map:
+Map:https://maps.app.goo.gl/MbuCESoBzuJ1FG4MA?g_st=aw
 Contact:
-9441950061
-9666765263
+ Prasad - 9010700035
+Ramesh -  9666765262
 
 
 Date: 22,23,24
