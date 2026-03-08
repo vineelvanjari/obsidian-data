@@ -5,3 +5,4 @@ make atomic level for each component feature etc - easy to make changes (AI too)
 understand each step - dont go blind
 you should understand , ai will do task
 ask n number of questions to clarify the project 
+push frequently to github
