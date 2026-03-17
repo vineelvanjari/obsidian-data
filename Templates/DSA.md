@@ -10,3 +10,4 @@ Hackerrank
 InterviewBit
 Codechef
 Code forces
+Make a proper note
