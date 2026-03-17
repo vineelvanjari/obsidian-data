@@ -1,4 +1,5 @@
 Understand the question 
+Learning solving from scrach 
 Think how to solve 
 Solve step by step
 Solve using simple version
@@ -10,4 +11,5 @@ Hackerrank
 InterviewBit
 Codechef
 Code forces
-Make a proper note
+Make a proper notes 
+Record vidoe explain the topic 
