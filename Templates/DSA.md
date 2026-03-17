@@ -5,4 +5,7 @@ Solve using simple version
 Find time and space complexity 
 Finds week points and make it optimal step by step 
 Find simple question in other platforms 
-Lee
+Leetcode 
+Hackerrank 
+InterviewBit
+Codecheff
