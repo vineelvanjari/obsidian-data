@@ -8,4 +8,4 @@ Find simple question in other platforms
 Leetcode 
 Hackerrank 
 InterviewBit
-Codecheff
+Codechef
