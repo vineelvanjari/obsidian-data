@@ -2,5 +2,7 @@ Understand the question
 Think how to solve 
 Solve step by step
 Solve using simple version
-Fin
+Find time and space complexity 
 Finds week points and make it optimal step by step 
+Find simple question in other platforms 
+Lee
