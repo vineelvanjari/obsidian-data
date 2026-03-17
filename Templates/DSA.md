@@ -1,4 +1,5 @@
 Understand the question 
+Explain again what you understand 
 Learning solving from scrach 
 Think how to solve 
 Solve step by step
