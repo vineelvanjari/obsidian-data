@@ -10,6 +10,7 @@ Find time and space complexity
 Finds week points and make it optimal step by step 
 Solve the main question 
 Find simple question in other platforms 
+Smart interview 
 Leetcode 
 Hackerrank 
 InterviewBit
