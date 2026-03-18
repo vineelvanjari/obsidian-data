@@ -1,3 +1,5 @@
+Pick leetcode daily question 
+Find its base pattern question 
 Understand the question 
 Explain again what you understand 
 Learning solving from scrach 
@@ -6,6 +8,7 @@ Solve step by step
 Solve using simple version
 Find time and space complexity 
 Finds week points and make it optimal step by step 
+Solve the main question 
 Find simple question in other platforms 
 Leetcode 
 Hackerrank 
