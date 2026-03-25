@@ -1,7 +1,7 @@
 25-03-26
-Pre class  : https://www.youtube.com/live/GI-Q5Ih9StA?si=9wmiT6sHnV_lvq7v
-Class : 
-Post class : 
+Pre class  : https://www.youtube.com/watch?v=GI-Q5Ih9StA
+Class : https://www.youtube.com/watch?v=xZJIrwwLSbE
+Post class : https://www.youtube.com/watch?v=CkZibZRfERg
 
 25-03-26
 Pre class  : 
