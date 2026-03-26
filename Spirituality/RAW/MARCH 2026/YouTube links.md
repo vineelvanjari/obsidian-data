@@ -6,4 +6,4 @@ Post class : https://www.youtube.com/watch?v=CkZibZRfERg
 25-03-26
 Pre class  : 
 Class : 
-Post class : 
+Post class : https://www.youtube.com/live/XItqH0EkPw0?si=81hWVlbtRTu_ulbZ
