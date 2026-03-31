@@ -8,5 +8,5 @@
 /blogs/ai-news [AI-NEWS](website/content/blogs/AI-NEWS/AI-NEWS.md)
 /classes [classes](website/content/blogs/classes/classes.md)
 /spirituality/blogs/notebooklm-links [notebooklm-links](website/content/blogs/Spirituality/notebooklm-links.md)
-/codenyx https://venture-os-launch.base44.app
+/social https://venture-os-launch.base44.app
 
