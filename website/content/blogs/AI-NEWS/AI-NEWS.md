@@ -1,4 +1,4 @@
-# 📰 AI News
+# 📰 AI News .
 
 - **02-03-26** — [NVIDIA GTC SUMMARY](https://youtube.com/shorts/VMsevyvXOAc?si=-KWcnxa0RutkpONG)
 - **01-03-26** — [Standard Intelligence introduced FDM1, a general computer action model trained on 11 million hours of video that autonomously performs complex digital tasks via direct screen interaction.](https://si.inc/posts/fdm1/)
